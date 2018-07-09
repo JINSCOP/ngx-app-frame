@@ -3,15 +3,13 @@
  * Copyright Akveo. All Rights Reserved.
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
+
 @font-face {
-  font-family: 'nebular';
-  src:  url('../fonts/nebular.eot?m2yqa');
-  src:  url('../fonts/nebular.eot?m2yqa#iefix') format('embedded-opentype'),
-    url('../fonts/nebular.ttf?m2yqa') format('truetype'),
-    url('../fonts/nebular.woff?m2yqa') format('woff'),
-    url('../fonts/nebular.svg?m2yqa#nebular') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'oliveui';
+    src: url('../fonts/oliveui.eot?m2yqa');
+    src: url('../fonts/oliveui.eot?m2yqa#iefix') format('embedded-opentype'), url('../fonts/oliveui.ttf?m2yqa') format('truetype'), url('../fonts/oliveui.woff?m2yqa') format('woff'), url('../fonts/oliveui.svg?m2yqa#oliveui') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .nb-alert,
@@ -107,296 +105,387 @@
 .nb-info,
 .nb-expand,
 .nb-collapse {
-  /* use !important to prevent issues with browser extensions that change ../fonts */
-  font-family: 'nebular' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* use !important to prevent issues with browser extensions that change ../fonts */
+    font-family: 'oliveui' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .nb-alert::before {
-  content: '\e900';
+    content: '\e900';
 }
+
 .nb-angle-double-left::before {
-  content: '\e901';
+    content: '\e901';
 }
+
 .nb-angle-double-right::before {
-  content: '\e902';
+    content: '\e902';
 }
+
 .nb-arrow-down::before {
-  content: '\e903';
+    content: '\e903';
 }
+
 .nb-arrow-dropdown::before {
-  content: '\e904';
+    content: '\e904';
 }
+
 .nb-arrow-dropleft::before {
-  content: '\e905';
+    content: '\e905';
 }
+
 .nb-arrow-dropright::before {
-  content: '\e906';
+    content: '\e906';
 }
+
 .nb-arrow-dropup::before {
-  content: '\e907';
+    content: '\e907';
 }
+
 .nb-arrow-left::before {
-  content: '\e908';
+    content: '\e908';
 }
+
 .nb-arrow-retweet::before {
-  content: '\e909';
+    content: '\e909';
 }
+
 .nb-arrow-right::before {
-  content: '\e90a';
+    content: '\e90a';
 }
+
 .nb-arrow-thin-down::before {
-  content: '\e90b';
+    content: '\e90b';
 }
+
 .nb-arrow-thin-left::before {
-  content: '\e90c';
+    content: '\e90c';
 }
+
 .nb-arrow-thin-right::before {
-  content: '\e90d';
+    content: '\e90d';
 }
+
 .nb-arrow-thin-up::before {
-  content: '\e90e';
+    content: '\e90e';
 }
+
 .nb-arrow-up::before {
-  content: '\e90f';
+    content: '\e90f';
 }
+
 .nb-audio::before {
-  content: '\e910';
+    content: '\e910';
 }
+
 .nb-bar-chart::before {
-  content: '\e911';
+    content: '\e911';
 }
+
 .nb-checkmark::before {
-  content: '\e912';
+    content: '\e912';
 }
+
 .nb-chevron-down::before {
-  content: '\e913';
+    content: '\e913';
 }
+
 .nb-chevron-down-outline::before {
-  content: '\e914';
+    content: '\e914';
 }
+
 .nb-chevron-left::before {
-  content: '\e915';
+    content: '\e915';
 }
+
 .nb-chevron-left-outline::before {
-  content: '\e916';
+    content: '\e916';
 }
+
 .nb-chevron-right::before {
-  content: '\e917';
+    content: '\e917';
 }
+
 .nb-chevron-right-outline::before {
-  content: '\e918';
+    content: '\e918';
 }
+
 .nb-chevron-up::before {
-  content: '\e919';
+    content: '\e919';
 }
+
 .nb-chevron-up-outline::before {
-  content: '\e91a';
+    content: '\e91a';
 }
+
 .nb-close::before {
-  content: '\e91b';
+    content: '\e91b';
 }
+
 .nb-close-circled::before {
-  content: '\e91c';
+    content: '\e91c';
 }
+
 .nb-cloudy::before {
-  content: '\e91d';
+    content: '\e91d';
 }
+
 .nb-coffee-maker::before {
-  content: '\e91e';
+    content: '\e91e';
 }
+
 .nb-collapse::before {
-  content: '\e91f';
+    content: '\e91f';
 }
+
 .nb-compose::before {
-  content: '\e920';
+    content: '\e920';
 }
+
 .nb-drop::before {
-  content: '\e921';
+    content: '\e921';
 }
+
 .nb-drops::before {
-  content: '\e922';
+    content: '\e922';
 }
+
 .nb-edit::before {
-  content: '\e923';
+    content: '\e923';
 }
+
 .nb-email::before {
-  content: '\e924';
+    content: '\e924';
 }
+
 .nb-expand::before {
-  content: '\e925';
+    content: '\e925';
 }
+
 .nb-flame-circled::before {
-  content: '\e926';
+    content: '\e926';
 }
+
 .nb-gear::before {
-  content: '\e927';
+    content: '\e927';
 }
+
 .nb-grid-a::before {
-  content: '\e928';
+    content: '\e928';
 }
+
 .nb-grid-a-outline::before {
-  content: '\e929';
+    content: '\e929';
 }
+
 .nb-grid-b::before {
-  content: '\e92a';
+    content: '\e92a';
 }
+
 .nb-grid-b-outline::before {
-  content: '\e92b';
+    content: '\e92b';
 }
+
 .nb-heart::before {
-  content: '\e92c';
+    content: '\e92c';
 }
+
 .nb-home::before {
-  content: '\e92d';
+    content: '\e92d';
 }
+
 .nb-info::before {
-  content: '\e92e';
+    content: '\e92e';
 }
+
 .nb-keypad::before {
-  content: '\e92f';
+    content: '\e92f';
 }
+
 .nb-layout-centre::before {
-  content: '\e930';
+    content: '\e930';
 }
+
 .nb-layout-default::before {
-  content: '\e931';
+    content: '\e931';
 }
+
 .nb-layout-one-column::before {
-  content: '\e932';
+    content: '\e932';
 }
+
 .nb-layout-sidebar-left::before {
-  content: '\e933';
+    content: '\e933';
 }
+
 .nb-layout-sidebar-right::before {
-  content: '\e934';
+    content: '\e934';
 }
+
 .nb-layout-two-column::before {
-  content: '\e935';
+    content: '\e935';
 }
+
 .nb-lightbulb::before {
-  content: '\e936';
+    content: '\e936';
 }
+
 .nb-list::before {
-  content: '\e937';
+    content: '\e937';
 }
+
 .nb-location::before {
-  content: '\e938';
+    content: '\e938';
 }
+
 .nb-locked::before {
-  content: '\e939';
+    content: '\e939';
 }
+
 .nb-loop::before {
-  content: '\e93a';
+    content: '\e93a';
 }
+
 .nb-loop-circled::before {
-  content: '\e93b';
+    content: '\e93b';
 }
+
 .nb-menu::before {
-  content: '\e93c';
+    content: '\e93c';
 }
+
 .nb-notifications::before {
-  content: '\e93d';
+    content: '\e93d';
 }
+
 .nb-paper-plane::before {
-  content: '\e93e';
+    content: '\e93e';
 }
+
 .nb-partlysunny::before {
-  content: '\e93f';
+    content: '\e93f';
 }
+
 .nb-pause::before {
-  content: '\e940';
+    content: '\e940';
 }
+
 .nb-pause-outline::before {
-  content: '\e941';
+    content: '\e941';
 }
+
 .nb-person::before {
-  content: '\e942';
+    content: '\e942';
 }
+
 .nb-phone::before {
-  content: '\e943';
+    content: '\e943';
 }
+
 .nb-play::before {
-  content: '\e944';
+    content: '\e944';
 }
+
 .nb-play-outline::before {
-  content: '\e945';
+    content: '\e945';
 }
+
 .nb-plus::before {
-  content: '\e946';
+    content: '\e946';
 }
+
 .nb-plus-circled::before {
-  content: '\e947';
+    content: '\e947';
 }
+
 .nb-power::before {
-  content: '\e948';
+    content: '\e948';
 }
+
 .nb-power-circled::before {
-  content: '\e949';
+    content: '\e949';
 }
+
 .nb-rainy::before {
-  content: '\e94a';
+    content: '\e94a';
 }
+
 .nb-roller-shades::before {
-  content: '\e94b';
+    content: '\e94b';
 }
+
 .nb-search::before {
-  content: '\e94c';
+    content: '\e94c';
 }
+
 .nb-shuffle::before {
-  content: '\e94d';
+    content: '\e94d';
 }
+
 .nb-skip-backward::before {
-  content: '\e94e';
+    content: '\e94e';
 }
+
 .nb-skip-backward-outline::before {
-  content: '\e94f';
+    content: '\e94f';
 }
+
 .nb-skip-forward::before {
-  content: '\e950';
+    content: '\e950';
 }
+
 .nb-skip-forward-outline::before {
-  content: '\e951';
+    content: '\e951';
 }
+
 .nb-snowy-circled::before {
-  content: '\e952';
+    content: '\e952';
 }
+
 .nb-square::before {
-  content: '\e953';
+    content: '\e953';
 }
+
 .nb-square-outline::before {
-  content: '\e954';
+    content: '\e954';
 }
+
 .nb-star::before {
-  content: '\e955';
+    content: '\e955';
 }
+
 .nb-sunny::before {
-  content: '\e956';
+    content: '\e956';
 }
+
 .nb-sunny-circled::before {
-  content: '\e957';
+    content: '\e957';
 }
+
 .nb-tables::before {
-  content: '\e958';
+    content: '\e958';
 }
+
 .nb-title::before {
-  content: '\e959';
+    content: '\e959';
 }
+
 .nb-trash::before {
-  content: '\e95a';
+    content: '\e95a';
 }
+
 .nb-volume-high::before {
-  content: '\e95b';
+    content: '\e95b';
 }
+
 .nb-volume-mute::before {
-  content: '\e95c';
+    content: '\e95c';
 }

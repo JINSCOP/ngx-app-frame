@@ -66,7 +66,7 @@ function bundleRenameDev() {
   src([
     `${LIB_DIR}/**/*.*`,
   ], { base: './' })
-    .pipe(replace('@nebular', '@nebular-dev'))
+    .pipe(replace('@oliveui', '@oliveui-dev'))
     .pipe(dest('./'));
 }
 

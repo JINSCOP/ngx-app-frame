@@ -13,15 +13,15 @@ import { HttpClientModule } from '@angular/common/http';
 import {
   NbCardModule,
   NbLayoutModule,
-} from '@nebular/theme';
+} from '@oliveui/theme';
 
 import {
   NbAuthModule,
   NbOAuth2AuthStrategy, NbOAuth2GrantType,
-} from '@nebular/auth';
+} from '@oliveui/auth';
 
 import { NbOAuth2PasswordLoginComponent } from './oauth2-password-login.component';
-import { NbAuthOAuth2Token } from '@nebular/auth';
+import { NbAuthOAuth2Token } from '@oliveui/auth';
 
 
 

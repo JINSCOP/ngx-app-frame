@@ -16,7 +16,7 @@ import {
   NbSidebarModule,
   NbCardModule,
   NbCheckboxModule,
-} from '@nebular/theme';
+} from '@oliveui/theme';
 
 import {
   NgdHeaderComponent,

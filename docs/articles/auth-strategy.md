@@ -1,6 +1,6 @@
 # Strategy
 
-In Nebular terms `Auth Strategy` is a class containing authentication logic specific for some authentication flow (email/password, OAuth2, etc). 
+In oliveui terms `Auth Strategy` is a class containing authentication logic specific for some authentication flow (email/password, OAuth2, etc). 
 It accepts user input (login/email/password/token/etc), communicates the input to the backend API and finally provides the resulting output back to the Auth UI layer.
 Currently, there are two Auth Strategies available out of the box:
 

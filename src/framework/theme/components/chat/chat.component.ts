@@ -31,7 +31,7 @@ import { NbChatMessageComponent } from './chat-message.component';
  *
  * Basic chat configuration and usage:
  * ```ts
- * <nb-chat title="Nebular Conversational UI">
+ * <nb-chat title="oliveui Conversational UI">
  *       <nb-chat-message *ngFor="let msg of messages"
  *                        [type]="msg.type"
  *                        [message]="msg.text"

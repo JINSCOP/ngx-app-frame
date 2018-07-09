@@ -10,7 +10,7 @@ In a simplest form you just need to modify the `getRole` method to return an arr
 // ...
 
 import { of as observableOf } from 'rxjs/observable/of';
-import { NbSecurityModule, NbRoleProvider } from '@nebular/security';
+import { NbSecurityModule, NbRoleProvider } from '@oliveui/security';
 
 
 @NgModule({

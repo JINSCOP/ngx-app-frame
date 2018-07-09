@@ -1,6 +1,6 @@
 {
     "name": "@oliveui/security",
-    "version": "2.0.1",
+    "version": "2.0.3",
     "description": "@oliveui/security",
     "main": "./bundles/security.umd.js",
     "module": "./index.js",
@@ -9,12 +9,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akveo/nebular.git"
+        "url": "git+https://github.com/akveo/oliveui.git"
     },
     "bugs": {
-        "url": "https://github.com/akveo/nebular/issues"
+        "url": "https://github.com/akveo/oliveui/issues"
     },
-    "homepage": "https://github.com/akveo/nebular#readme",
+    "homepage": "https://github.com/akveo/oliveui#readme",
     "keywords": [
         "angular",
         "typescript",
@@ -26,7 +26,7 @@
         "security",
         "login",
         "register",
-        "nebular"
+        "oliveui"
     ],
     "peerDependencies": {
         "@angular/common": "^6.0.0",

@@ -16,10 +16,10 @@
     "baseUrl": ".",
     "types": [],
     "paths": {
-      "@nebular/theme": ["../src/framework/theme"],
-      "@nebular/theme/*": ["../src/framework/theme/*"],
-      "@nebular/auth": ["../src/framework/auth"],
-      "@nebular/security": ["../src/framework/security"]
+      "@oliveui/theme": ["../src/framework/theme"],
+      "@oliveui/theme/*": ["../src/framework/theme/*"],
+      "@oliveui/auth": ["../src/framework/auth"],
+      "@oliveui/security": ["../src/framework/security"]
     }
   },
   "exclude": [

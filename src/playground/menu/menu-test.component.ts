@@ -6,7 +6,7 @@
 
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { takeWhile } from 'rxjs/operators';
-import { NbMenuService, NbMenuItem } from '@nebular/theme';
+import { NbMenuService, NbMenuItem } from '@oliveui/theme';
 
 @Component({
   selector: 'nb-menu-item1',
@@ -230,7 +230,7 @@ export class NbMenuTestComponent implements OnInit, OnDestroy {
                   home: true,
                 },
                 {
-                  title: '@nebular/theme',
+                  title: '@oliveui/theme',
                   target: '_blank',
                   url: 'https://github.com/akveo/ng2-admin',
                 },

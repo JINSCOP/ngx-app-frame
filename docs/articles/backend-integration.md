@@ -1,6 +1,6 @@
 # Backend Integration
 
-This section describes approaches of integration of Nebular application with backend API. Despite we understand that every backend is really different, we think that we can cover several most commonly used ways.
+This section describes approaches of integration of oliveui application with backend API. Despite we understand that every backend is really different, we think that we can cover several most commonly used ways.
 <hr>
 
 ## Integration with JSON REST server
@@ -31,7 +31,7 @@ After that you need to run your angular-cli application using following command
 ```bash
 ng serve --proxy-config proxy.conf.json
 ```
-That's it. Now you can access `/api` URL from your Nebular application and your requests will be forwarded to your API server.
+That's it. Now you can access `/api` URL from your oliveui application and your requests will be forwarded to your API server.
 <hr>
 
 ## Production setup

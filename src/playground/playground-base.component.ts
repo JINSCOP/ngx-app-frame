@@ -5,7 +5,7 @@
  */
 
 import { Component, OnInit } from '@angular/core';
-import { NbThemeService } from '@nebular/theme';
+import { NbThemeService } from '@oliveui/theme';
 import 'style-loader!./styles/styles.scss';
 
 

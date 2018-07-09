@@ -5,7 +5,7 @@ export const structure = [
     children: [
       {
         type: 'page',
-        name: 'What is Nebular?',
+        name: 'What is oliveui?',
         children: [
           {
             type: 'block',

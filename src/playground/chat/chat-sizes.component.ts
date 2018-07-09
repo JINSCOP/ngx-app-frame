@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
 export class NbChatSizesComponent {
   chats: any[] = [
     {
-      title: 'Nebular Conversational UI Small',
+      title: 'oliveui Conversational UI Small',
       messages: [
         {
           text: 'Small!',
@@ -32,7 +32,7 @@ export class NbChatSizesComponent {
       size: 'small',
     },
     {
-      title: 'Nebular Conversational UI Medium',
+      title: 'oliveui Conversational UI Medium',
       messages: [
         {
           text: 'Medium!',

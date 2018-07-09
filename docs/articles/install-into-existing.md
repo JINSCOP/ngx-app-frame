@@ -6,7 +6,7 @@ In case you want to start based on our ngx-admin starter kit, please check out [
 <div class="note note-info">
   <div class="note-title">ngx-admin custom components</div>
   <div class="note-body">
-    Please note, this tutorial explains how to install Nebular modules into your project including Theme System, Auth and UI Kit. 
+    Please note, this tutorial explains how to install oliveui modules into your project including Theme System, Auth and UI Kit. 
     If you want to re-use any of ngx-admin <strong>custom</strong> components (like Temperature Widget, Dashboard charts, etc) without using ngx-admin itself, 
     please follow this guide and in the end just copy any of ngx-admin custom components you need into your project, register them in your modules and that's it.
   </div>
@@ -21,21 +21,21 @@ npm i -S bootstrap
 ```
 <hr>
 
-## Install Nebular modules
+## Install oliveui modules
 
 ```bash
-npm i -S @nebular/theme @nebular/auth @nebular/security
+npm i -S @oliveui/theme @oliveui/auth @oliveui/security
 ```
-You can remove `@nebular/auth` and `@nebular/security` from the command if you don't need authentication/security parts in your project.
+You can remove `@oliveui/auth` and `@oliveui/security` from the command if you don't need authentication/security parts in your project.
 <hr>
 
-## Configure Nebular
+## Configure oliveui
 
-At this stage you have everything in place, let's configure Nebular in the app module.
+At this stage you have everything in place, let's configure oliveui in the app module.
 
 ```ts
 
-import { NbThemeModule } from '@nebular/theme';
+import { NbThemeModule } from '@oliveui/theme';
 
 ...
 
@@ -52,14 +52,14 @@ Same way you can enable Auth Module (more details under [Auth Module Concepts & 
 <hr>
 
 ## Install Styles
-Now, let's import Nebular styles
+Now, let's import oliveui styles
 
-Include Bootstrap and default Nebular theme CSS files into your `.angular-cli.json` file:
+Include Bootstrap and default oliveui theme CSS files into your `.angular-cli.json` file:
 
 ```scss
 "styles": [
   "../node_modules/bootstrap/dist/css/bootstrap.css",
-  "../node_modules/@nebular/theme/styles/prebuilt/default.css", // or cosmic.css
+  "../node_modules/@oliveui/theme/styles/prebuilt/default.css", // or cosmic.css
 ],
 ```
 
@@ -74,11 +74,11 @@ Include Bootstrap and default Nebular theme CSS files into your `.angular-cli.js
 
 ## Create a page
 
-Now, let's create a simple Nebular page (header + sidebar) in your project. We suppose that you have a separate module per page, let's open your `some-page.module.ts` and import necessary layout components:
+Now, let's create a simple oliveui page (header + sidebar) in your project. We suppose that you have a separate module per page, let's open your `some-page.module.ts` and import necessary layout components:
 
 ```ts
-import { RouterModule } from '@angular/router'; // we also need angular router for Nebular to function properly
-import { NbSidebarModule, NbLayoutModule, NbSidebarService } from '@nebular/theme';
+import { RouterModule } from '@angular/router'; // we also need angular router for oliveui to function properly
+import { NbSidebarModule, NbLayoutModule, NbSidebarService } from '@oliveui/theme';
 
 ...
 
@@ -124,8 +124,8 @@ And done! At this step, you should have a page with a simple layout on it lookin
 <div class="note note-info">
   <div class="note-title">Adding into existing page</div>
   <div class="note-body">
-    In case you already have some code on your page and want to mix it with Nebular components you would need to place your page code inside of the Nebular layout. 
-    `<nb-layout></nb-layout>` is a required root component for Nebular to work.
+    In case you already have some code on your page and want to mix it with oliveui components you would need to place your page code inside of the oliveui layout. 
+    `<nb-layout></nb-layout>` is a required root component for oliveui to work.
   </div>
 </div>
 <hr> 
@@ -134,6 +134,6 @@ And done! At this step, you should have a page with a simple layout on it lookin
 ## Related Articles
 
 - [Advanced Theme System configuration](docs/guides/enable-theme-system)
-- [Nebular UI Kit](docs/guides/components-overview#advanced-setup)
+- [oliveui UI Kit](docs/guides/components-overview#advanced-setup)
 - [NbLayout, NbLayoutColumn, NbLayoutHeader, NbLayoutFooter](docs/components/layout)
 - [Deploying to production server](docs/guides/server-deployment)

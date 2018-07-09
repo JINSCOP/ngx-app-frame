@@ -16,7 +16,7 @@ import {
   tap,
   takeWhile,
 } from 'rxjs/operators';
-import { NB_WINDOW } from '@nebular/theme';
+import { NB_WINDOW } from '@oliveui/theme';
 import { NgdStructureService, NgdTocStateService } from '../../@theme/services';
 import { fromEvent } from 'rxjs';
 
@@ -64,7 +64,7 @@ export class NgdPageComponent implements OnDestroy, OnInit {
         }),
         filter(item => item),
         tap((item: any) => {
-          this.titleService.setTitle(`Nebular - ${item.name}`);
+          this.titleService.setTitle(`oliveui - ${item.name}`);
         }),
         publishReplay(),
         refCount(),

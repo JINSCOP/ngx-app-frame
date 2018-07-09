@@ -8,7 +8,7 @@ publish_dev() {
     echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN_DEV}" > ~/.npmrc
     echo "NPM authenticated as '$(npm whoami)'"
 
-    export NEBULAR_VERSION_APPENDIX=$(git rev-parse --short HEAD)
+    export oliveui_VERSION_APPENDIX=$(git rev-parse --short HEAD)
     npm run release:dev
   else
     echo "Skipping development build publish as only allowed on master branch."

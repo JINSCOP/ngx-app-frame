@@ -2,8 +2,8 @@ import { dest, src, task } from 'gulp';
 
 const modify = require('gulp-json-modify');
 
-const VERSION_APPENDIX = process.env.NEBULAR_VERSION_APPENDIX;
-const VERSION = process.env.NEBULAR_VERSION || require('../../../package.json').version +
+const VERSION_APPENDIX = process.env.oliveui_VERSION_APPENDIX;
+const VERSION = process.env.oliveui_VERSION || require('../../../package.json').version +
   (VERSION_APPENDIX ? '-' + VERSION_APPENDIX : '');
 
 task('bump', () => {
@@ -25,7 +25,7 @@ task('bump-peer', () => {
     './src/framework/auth/package.json',
   ], { base: './' })
     .pipe(modify({
-      key: 'peerDependencies.@nebular/theme',
+      key: 'peerDependencies.@oliveui/theme',
       value: VERSION,
     }))
     .pipe(dest('./'));

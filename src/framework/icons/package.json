@@ -1,23 +1,23 @@
 {
-    "name": "oliveui-icons",
-    "version": "2.0.1",
-    "description": "Nebular icons - amazing icons crafted with love by Akveo team",
+    "name": "@oliveui/icons",
+    "version": "2.0.2",
+    "description": "oliveui icons - amazing icons crafted with love by Akveo team",
     "author": "akveo",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akveo/nebular.git"
+        "url": "git+https://github.com/akveo/oliveui.git"
     },
     "bugs": {
-        "url": "https://github.com/akveo/nebular/issues"
+        "url": "https://github.com/akveo/oliveui/issues"
     },
-    "homepage": "https://github.com/akveo/nebular#readme",
+    "homepage": "https://github.com/akveo/oliveui#readme",
     "keywords": [
         "theme",
         "fonts",
         "icon font",
         "icons",
-        "nebular",
+        "oliveui",
         "web font"
     ],
     "files": [

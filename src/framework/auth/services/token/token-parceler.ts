@@ -8,7 +8,7 @@ export interface NbTokenPack {
   value: string,
 }
 
-export const NB_AUTH_FALLBACK_TOKEN = new InjectionToken<NbAuthTokenClass>('Nebular Auth Options');
+export const NB_AUTH_FALLBACK_TOKEN = new InjectionToken<NbAuthTokenClass>('oliveui Auth Options');
 
 /**
  * Creates a token parcel which could be stored/restored

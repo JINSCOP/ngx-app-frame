@@ -11,13 +11,13 @@ First, let's install the module as it's distributed as an npm package. Security 
 
 
 ```bash
-npm i @nebular/security
+npm i @oliveui/security
 ```
 <hr>   
 ## Import the module:
 
 ```ts
-import { NbSecurityModule } from '@nebular/security
+import { NbSecurityModule } from '@oliveui/security
 ```
 <hr>
 ## Register it
@@ -32,7 +32,7 @@ Now, let's register the module in the root module:
    NbSecurityModule.forRoot(),
 ```
 
-Great, at this stage we have installed Nebular Security and ready to configure it.
+Great, at this stage we have installed oliveui Security and ready to configure it.
 
 <hr>
 

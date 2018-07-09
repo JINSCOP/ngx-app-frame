@@ -19,7 +19,7 @@ export class NbChatColorsComponent {
   chats: any[] = [
     {
       status: 'success',
-      title: 'Nebular Conversational UI Success',
+      title: 'oliveui Conversational UI Success',
       messages: [
         {
           text: 'Success!',
@@ -34,7 +34,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'danger',
-      title: 'Nebular Conversational UI Danger',
+      title: 'oliveui Conversational UI Danger',
       messages: [
         {
           text: 'Danger!',
@@ -49,7 +49,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'primary',
-      title: 'Nebular Conversational UI Primary',
+      title: 'oliveui Conversational UI Primary',
       messages: [
         {
           text: 'Primary!',
@@ -64,7 +64,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'info',
-      title: 'Nebular Conversational UI Info',
+      title: 'oliveui Conversational UI Info',
       messages: [
         {
           text: 'Info!',
@@ -79,7 +79,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'warning',
-      title: 'Nebular Conversational UI Warning',
+      title: 'oliveui Conversational UI Warning',
       messages: [
         {
           text: 'Warning!',
@@ -94,7 +94,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'active',
-      title: 'Nebular Conversational UI Active',
+      title: 'oliveui Conversational UI Active',
       messages: [
         {
           text: 'Active!',
@@ -109,7 +109,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'disabled',
-      title: 'Nebular Conversational UI Disabled',
+      title: 'oliveui Conversational UI Disabled',
       messages: [
         {
           text: 'Disabled!',

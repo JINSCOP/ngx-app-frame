@@ -169,7 +169,7 @@ export class NbLayoutFooterComponent {
 
 /**
  * Layout container component.
- * When using with Nebular Theme System it is required that all child components should be placed inside.
+ * When using with oliveui Theme System it is required that all child components should be placed inside.
  *
  * Basic example of two column layout with header:
  *

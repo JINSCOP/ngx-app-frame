@@ -1,18 +1,18 @@
 {
     "name": "oliveui",
-    "version": "2.0.0-rc.9",
+    "version": "2.0.3",
     "license": "MIT",
-    "author": "akveo <contact@akveo.com>",
+    "author": "金飞 <28206254@qq.com>",
     "browserslist": [
         "> 1%",
         "last 2 versions",
         "IE 11"
     ],
     "bugs": {
-        "url": "https://github.com/akveo/nebular/issues"
+        "url": "https://github.com/akveo/oliveui/issues"
     },
-    "homepage": "https://github.com/akveo/nebular#readme",
-    "repository": "git+https://github.com/akveo/nebular.git",
+    "homepage": "https://github.com/akveo/oliveui#readme",
+    "repository": "git+https://github.com/akveo/oliveui.git",
     "scripts": {
         "ng": "ng",
         "ngh": "ngh",
@@ -26,7 +26,7 @@
         "docs:prepare": "npm-run-all docs:parse",
         "docs:start": "npm start -- docs --port 4100",
         "docs:serve": "npm-run-all docs:prepare docs:start",
-        "docs:build": "npm run docs:prepare && npm run build:prod -- docs --base-href '/nebular/' && npm run docs:dirs",
+        "docs:build": "npm run docs:prepare && npm run build:prod -- docs --base-href '/oliveui/' && npm run docs:dirs",
         "docs:dirs": "gulp create-docs-dirs",
         "docs:gh-pages": "npm run docs:build && npm run ngh -- --dir ./docs/dist",
         "build": "ng build",
@@ -74,7 +74,7 @@
         "ng2-admin",
         "ngx-admin",
         "framework",
-        "nebular"
+        "oliveui"
     ],
     "dependencies": {
         "@angular/animations": "6.0.0",
@@ -86,6 +86,10 @@
         "@angular/platform-browser": "6.0.0",
         "@angular/platform-browser-dynamic": "6.0.0",
         "@angular/router": "6.0.0",
+        "@oliveui/auth": "^2.0.3",
+        "@oliveui/icons": "^2.0.2",
+        "@oliveui/security": "^2.0.3",
+        "@oliveui/theme": "^2.0.3",
         "bootstrap": "4.0.0",
         "colors.js": "1.2.4",
         "core-js": "2.5.1",
@@ -96,7 +100,6 @@
         "jasmine-fail-fast": "2.0.0",
         "leaflet": "1.0.3",
         "marked": "0.3.9",
-        "nebular-icons": "1.0.6",
         "normalize.css": "6.0.0",
         "rxjs": "^6.1.0",
         "socicon": "3.0.5",

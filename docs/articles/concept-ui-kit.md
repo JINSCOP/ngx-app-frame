@@ -1,8 +1,8 @@
-# Nebular Components
+# oliveui Components
 
-Nebular Components is a list of pure Angular components allowing you to quickly create a new page filled with essential structure.
+oliveui Components is a list of pure Angular components allowing you to quickly create a new page filled with essential structure.
 
-Here's a list of Nebular components:
+Here's a list of oliveui components:
 
 - [Layout](docs/components/layout) including header and footer
 - [Sidebar](docs/components/sidebar)
@@ -22,6 +22,6 @@ Here's a list of Nebular components:
 <div class="note note-info">
   <div class="note-title">3rd Party Libraries</div>
   <div class="note-body">
-    Nebular doesn't limit you to use only these components. Moreover, we highly recommend using other libraries such as Bootstrap or Angular Material in pair with Nebular layout components.
+    oliveui doesn't limit you to use only these components. Moreover, we highly recommend using other libraries such as Bootstrap or Angular Material in pair with oliveui layout components.
   </div>
 </div>

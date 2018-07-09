@@ -14,7 +14,7 @@
     },
     "**/*.js.map": true,
 
-    // exclude @nebular build folders
+    // exclude @oliveui build folders
     "**/.lib": true
   }
 }

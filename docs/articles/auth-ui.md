@@ -202,19 +202,19 @@ The settings will be merged with the default values so no need to specify all of
 
 ## Custom UI Components
 
-In a case when the look & feel of the Nebular auth components doesn't satisfy your needs, you can easily create custom authentication components based on the Nebular ones.
+In a case when the look & feel of the oliveui auth components doesn't satisfy your needs, you can easily create custom authentication components based on the oliveui ones.
 
 All you need to do is:
 
 ### Copy component sources
 
-Copy [source code](https://github.com/akveo/nebular/tree/master/src/framework/auth/components) of the components you want to change under your project. If you use `ngx-admin`, you may place them under `src/app/@theme/components/auth`.
+Copy [source code](https://github.com/akveo/oliveui/tree/master/src/framework/auth/components) of the components you want to change under your project. If you use `ngx-admin`, you may place them under `src/app/@theme/components/auth`.
 Rename components to conform your app prefix, for instance using `ngx-` prefix.
 
 <div class="note note-warning">
   <div class="note-title">Don't copy other auth module files</div>
   <div class="note-body">
-    There is no need to copy services and files, otherwise, you'll be getting conflicts with the original Nebular Auth module.
+    There is no need to copy services and files, otherwise, you'll be getting conflicts with the original oliveui Auth module.
   </div>
 </div>
 

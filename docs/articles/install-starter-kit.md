@@ -1,10 +1,10 @@
 # Install Based on Starter Kit
 
-Starting Nebular from <a href="https://github.com/akveo/ngx-admin/" target="_blank">ngx-admin</a> starter kit is the easiest way to run your first Nebular application. 
+Starting oliveui from <a href="https://github.com/akveo/ngx-admin/" target="_blank">ngx-admin</a> starter kit is the easiest way to run your first oliveui application. 
  
 Please note, that **ngx-admin** is just a frontend application. Backend integration can be done relatively simple, but you should be aware that all the data is mocked using JavaScript objects. 
 If you want the data to be dynamic, you should consider developing a backend integration by your own. 
-The Nebular team doesn't consider providing generic integration layer as a part of this project because every backend API has a different structure in terms of data format and URLs.
+The oliveui team doesn't consider providing generic integration layer as a part of this project because every backend API has a different structure in terms of data format and URLs.
 <hr>
 
 ## Install tools

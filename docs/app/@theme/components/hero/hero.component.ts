@@ -5,10 +5,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   styleUrls: ['./hero.component.scss'],
   template: `
     <div class="block">
-      <h1>Nebular</h1>
+      <h1>oliveui</h1>
       <p>Components, Auth & Security for your next Angular App</p>
       <a class="btn get-started" routerLink="docs">Get Started</a>
-      <a class="btn" href="http://akveo.com/ngx-admin?utm_source=nebular_documentation&utm_medium=demo_button"
+      <a class="btn" href="http://akveo.com/ngx-admin?utm_source=oliveui_documentation&utm_medium=demo_button"
          target="_blank">Demo</a>
     </div>
     <div class="right-block">

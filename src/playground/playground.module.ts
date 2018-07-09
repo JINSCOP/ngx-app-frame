@@ -29,7 +29,7 @@ import {
   NbSpinnerModule,
   NbStepperModule,
   NbAccordionModule,
-} from '@nebular/theme';
+} from '@oliveui/theme';
 
 import { NbPlaygroundRoutingModule } from './playground-routing.module';
 import { NbPlaygroundBaseComponent } from './playground-base.component';

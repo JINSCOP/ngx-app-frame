@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbBadgeComponent } from '@nebular/theme';
+import { NbBadgeComponent } from '@oliveui/theme';
 
 @Component({
   selector: 'nb-action-test',
