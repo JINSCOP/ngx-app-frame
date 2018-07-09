@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "outDir": "./src/.lib",
+    "rootDir": "./.ng_build",
+    "sourceMap": true,
+    "target": "es5",
+    "inlineSources": true,
+    "stripInternal": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nebular/theme": ["./.ng_build/theme"]
+    },
+    "skipLibCheck": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "./.ng_build/**/*"
+  ],
+  "exclude": [
+    "./.ng_build/**/*.e2e.ts",
+    "./.ng_build/**/*.spec.ts"
+  ],
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "fullTemplateTypeCheck": true,
+    "genDir": "./.ng_compiled"
+  }
+}
