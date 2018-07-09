@@ -5,12 +5,12 @@
  */
 
 @font-face {
-    font-family: #{$ngx-app-frame-icons-font-family};
-    src: url('#{$ngx-app-frame-icons-font-path}/oliveui.eot?m2yqa');
-    src: url('#{$ngx-app-frame-icons-font-path}/oliveui.eot?m2yqa#iefix') format('embedded-opentype'),
-    url('#{$ngx-app-frame-icons-font-path}/oliveui.ttf?m2yqa') format('truetype'),
-    url('#{$ngx-app-frame-icons-font-path}/oliveui.woff?m2yqa') format('woff'),
-    url('#{$ngx-app-frame-icons-font-path}/oliveui.svg?m2yqa#oliveui') format('svg');
+    font-family: #{$oliveui-icons-font-family};
+    src: url('#{$oliveui-icons-font-path}/oliveui.eot?m2yqa');
+    src: url('#{$oliveui-icons-font-path}/oliveui.eot?m2yqa#iefix') format('embedded-opentype'),
+    url('#{$oliveui-icons-font-path}/oliveui.ttf?m2yqa') format('truetype'),
+    url('#{$oliveui-icons-font-path}/oliveui.woff?m2yqa') format('woff'),
+    url('#{$oliveui-icons-font-path}/oliveui.svg?m2yqa#oliveui') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -108,8 +108,8 @@
 .nb-info,
 .nb-expand,
 .nb-collapse {
-    /* use !important to prevent issues with browser extensions that change #{$ngx-app-frame-icons-font-path} */
-    font-family: #{$ngx-app-frame-icons-font-family};
+    /* use !important to prevent issues with browser extensions that change #{$oliveui-icons-font-path} */
+    font-family: #{$oliveui-icons-font-family};
     speak: none;
     font-style: normal;
     font-weight: normal;

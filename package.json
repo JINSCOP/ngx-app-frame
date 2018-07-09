@@ -1,6 +1,6 @@
 {
     "name": "ngx-app-frame",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "author": "金飞 <28206254@qq.com>",
     "browserslist": [
@@ -86,10 +86,10 @@
         "@angular/platform-browser": "6.0.0",
         "@angular/platform-browser-dynamic": "6.0.0",
         "@angular/router": "6.0.0",
-        "@ngx-app-frame/auth": "^1.0.1",
-        "@ngx-app-frame/icons": "^1.0.1",
-        "@ngx-app-frame/security": "^1.0.1",
-        "@ngx-app-frame/theme": "^1.0.1",
+        "@ngx-app-frame/auth": "^1.0.2",
+        "@ngx-app-frame/icons": "^1.0.2",
+        "@ngx-app-frame/security": "^1.0.2",
+        "@ngx-app-frame/theme": "^1.0.2",
         "bootstrap": "4.0.0",
         "colors.js": "1.2.4",
         "core-js": "2.5.1",

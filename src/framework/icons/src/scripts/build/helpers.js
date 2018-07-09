@@ -37,7 +37,7 @@ function copyFonts() {
 
 function fixCss() {
     const srcCss = './style.css';
-    const buildCss = './ngx-app-frame-icons.css';
+    const buildCss = './oliveui-icons.css';
     const srcStylePath = path.join(srcRoot, srcCss);
 
     const file = fs.readFileSync(srcStylePath).toString();
@@ -72,33 +72,33 @@ function genScss() {
 }
 
 function genScssRoot() {
-    const buildScss = './ngx-app-frame-icons.scss';
+    const buildScss = './oliveui-icons.scss';
     const rootFileContent = `${license}
-@import 'ngx-app-frame-icons-variables';
-@import 'ngx-app-frame-icons-font';
+@import 'oliveui-icons-variables';
+@import 'oliveui-icons-font';
 `;
 
     fs.writeFileSync(path.join(scssRoot, buildScss), rootFileContent);
 }
 
 function genScssVariables() {
-    const buildScss = './_ngx-app-frame-icons-variables.scss';
+    const buildScss = './_oliveui-icons-variables.scss';
     const variablesContent = `${license}
-$ngx-app-frame-icons-font-path: '../fonts' !default;
-$ngx-app-frame-icons-font-family: 'ngx-app-frame' !default;
+$oliveui-icons-font-path: '../fonts' !default;
+$oliveui-icons-font-family: 'oliveui' !default;
 `;
 
     fs.writeFileSync(path.join(scssRoot, buildScss), variablesContent);
 }
 
 function genScssFont() {
-    const buildScss = './_ngx-app-frame-icons-font.scss';
-    const buildCss = path.join(cssRoot, 'ngx-app-frame-icons.css');
+    const buildScss = './_oliveui-icons-font.scss';
+    const buildCss = path.join(cssRoot, 'oliveui-icons.css');
 
     const file = fs.readFileSync(buildCss).toString();
     const content = file
-        .replace(/\.\.\/fonts/g, '#{$ngx-app-frame-icons-font-path}')
-        .replace(/(font-family: )(.*)(;)/g, '$1#{$ngx-app-frame-icons-font-family}$3');
+        .replace(/\.\.\/fonts/g, '#{$oliveui-icons-font-path}')
+        .replace(/(font-family: )(.*)(;)/g, '$1#{$oliveui-icons-font-family}$3');
 
     fs.writeFileSync(path.join(scssRoot, buildScss), content);
 }

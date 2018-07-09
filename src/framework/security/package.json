@@ -1,6 +1,6 @@
 {
     "name": "@ngx-app-frame/security",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "@ngx-app-frame/security",
     "main": "./bundles/security.umd.js",
     "module": "./index.js",

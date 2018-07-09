@@ -46,7 +46,7 @@ We have to:
     - framework - Framework itself, divided into npm packages
         - theme - `@ngx-app-frame/theme` npm package, main framework package
         - auth - `@ngx-app-frame/auth` npm package, auth package (login, register, etc)       
-        - icons - `ngx-app-frame-icons` npm package, cool icons font
+        - icons - @ngx-app-frame/oliveui-icons` npm package, cool icons font
         - security - `@ngx-app-frame/security` npm package, security framework package
         
 
@@ -409,4 +409,4 @@ your-component.component.ts  (add line in docs section-  * @stacked-example(Your
  - describe framework and demo dependencies
  - create a new component guide
  - usage guide
- - move ngx-app-frame-icons in separate repository
+ - move oliveui-icons in separate repository

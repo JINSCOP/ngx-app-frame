@@ -1,6 +1,6 @@
 {
     "name": "@ngx-app-frame/auth",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "@ngx-app-frame/auth",
     "main": "./bundles/auth.umd.js",
     "module": "./index.js",
@@ -32,7 +32,7 @@
         "@angular/router": "^6.0.0",
         "@angular/forms": "^6.0.0",
         "@angular/http": "^6.0.0",
-        "@ngx-app-frame/theme": "1.0.1",
+        "@ngx-app-frame/theme": "1.0.2",
         "rxjs": "^6.1.0"
     }
 }
