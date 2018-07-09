@@ -5,7 +5,7 @@
  */
 
 import { Component, OnInit } from '@angular/core';
-import { NbThemeService } from '@oliveui/theme';
+import { NbThemeService } from '@ngx-app-frame/theme';
 import 'style-loader!./styles/styles.scss';
 
 

@@ -66,7 +66,7 @@ function bundleRenameDev() {
   src([
     `${LIB_DIR}/**/*.*`,
   ], { base: './' })
-    .pipe(replace('@oliveui', '@oliveui-dev'))
+    .pipe(replace('@ngx-app-frame', '@ngx-app-frame-dev'))
     .pipe(dest('./'));
 }
 

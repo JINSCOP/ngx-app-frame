@@ -58,7 +58,7 @@ module.exports = function(config) {
             level: 'log'
         },
         sauceLabs: {
-            testName: 'oliveui Unit Tests',
+            testName: 'ngx-app-frame Unit Tests',
             startConnect: false,
             recordVideo: false,
             recordScreenshots: false,
@@ -67,7 +67,7 @@ module.exports = function(config) {
             maxDuration: 5400
         },
         browserStack: {
-            project: 'oliveui Unit Tests',
+            project: 'ngx-app-frame Unit Tests',
             startTunnel: false,
             retryLimit: 1,
             timeout: 600,

@@ -1,6 +1,6 @@
 import { Directive, ElementRef, Inject, Input, OnDestroy, OnInit, Renderer2 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { NB_WINDOW } from '@oliveui/theme';
+import { NB_WINDOW } from '@ngx-app-frame/theme';
 import { takeWhile, filter, publish, refCount } from 'rxjs/operators';
 import { NgdTocElement, NgdTocStateService } from '../../services';
 import { delay } from 'rxjs/internal/operators';

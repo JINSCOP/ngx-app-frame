@@ -6,7 +6,7 @@
 
 import { Component, OnInit } from '@angular/core';
 
-import { NbSidebarService } from '@oliveui/theme';
+import { NbSidebarService } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'nb-sidebar-test',

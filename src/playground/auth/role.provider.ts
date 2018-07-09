@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { NbAuthService, NbAuthJWTToken } from '@oliveui/auth';
-import { NbRoleProvider } from '@oliveui/security';
+import { NbAuthService, NbAuthJWTToken } from '@ngx-app-frame/auth';
+import { NbRoleProvider } from '@ngx-app-frame/security';
 
 @Injectable()
 export class NbCustomRoleProvider implements NbRoleProvider {

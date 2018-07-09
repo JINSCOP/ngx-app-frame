@@ -5,7 +5,7 @@
  */
 
 import { Component, OnDestroy } from '@angular/core';
-import { NbAuthResult, NbAuthService } from '@oliveui/auth';
+import { NbAuthResult, NbAuthService } from '@ngx-app-frame/auth';
 import { Router } from '@angular/router';
 import { takeWhile } from 'rxjs/operators';
 

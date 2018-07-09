@@ -1,6 +1,6 @@
 @import '../../../@theme/styles/themes';
 @include nb-install-component() {
-    // TODO: move some variables in oliveui themes
+    // TODO: move some variables in ngx-app-frame themes
     // colors
     $action-bg: white;
     $action-fg: nb-theme(color-fg-heading-light);

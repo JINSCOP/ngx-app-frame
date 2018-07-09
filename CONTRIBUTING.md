@@ -1,6 +1,6 @@
-# Contributing to oliveui
+# Contributing to ngx-app-frame
 
-We would love for you to contribute to oliveui and help make it ever better together! :rocket:
+We would love for you to contribute to ngx-app-frame and help make it ever better together! :rocket:
 
  - [Code of Conduct](#coc)
  - [Question or Problem?](#question)
@@ -11,11 +11,11 @@ We would love for you to contribute to oliveui and help make it ever better toge
  - [Commit Message Guidelines](#commit)
 
 ## <a name="coc"></a> Code of Conduct
-Help us keep oliveui open and inclusive. Please read and follow our [Code of Conduct][coc].
+Help us keep ngx-app-frame open and inclusive. Please read and follow our [Code of Conduct][coc].
 
 ## <a name="question"></a> Got a Question or Problem?
 
-Please do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. You've got much better chances of getting your question answered on [StackOverflow][stackoverflow] where the questions should be tagged with tag `oliveui`.
+Please do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests. You've got much better chances of getting your question answered on [StackOverflow][stackoverflow] where the questions should be tagged with tag `ngx-app-frame`.
 
 StackOverflow is a much better place to ask questions since:
 
@@ -34,7 +34,7 @@ diagnose the problem. Screenshots and error stack traces are also helpful.
 
 Please follow this simple checklist before submitting:
 
-* If you have a question about using oliveui, please ask on the [StackOverflow][stackoverflow].
+* If you have a question about using ngx-app-frame, please ask on the [StackOverflow][stackoverflow].
 
 * It is required that you clearly describe the steps necessary to reproduce the issue you are running into. Although we would love to help our users as much as possible, diagnosing issues without clear reproduction steps is extremely time-consuming and simply not sustainable.
 
@@ -98,7 +98,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     git push my-fork my-fix-branch
     ```
 
-* In GitHub, send a pull request to `oliveui:master`.
+* In GitHub, send a pull request to `ngx-app-frame:master`.
 * If we suggest changes then:
   * Make the required updates.
   * Re-run `npm run release:validate` to ensure tests are still passing, linter & build has no errors.
@@ -152,7 +152,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
 readable messages** that are easy to follow when looking through the **project history**.  But also,
-we use the git commit messages to **generate the oliveui change log**.
+we use the git commit messages to **generate the ngx-app-frame change log**.
 
 ### Commit Message Format
 Each commit message consists of a **header**, a **body** and a **footer**.  The header has a special
@@ -216,8 +216,8 @@ The rest of the commit message is then used for this.
 
 [coc]: CODE_OF_CONDUCT.md
 [dev-doc]: DEV_DOCS.md
-[github]: https://github.com/akveo/oliveui
-[stackoverflow]: https://stackoverflow.com/questions/tagged/oliveui
-[issues]: https://github.com/akveo/oliveui/issues
-[new_issue]: https://github.com/akveo/oliveui/issues/new
-[pulls]: https://github.com/akveo/oliveui/pulls
+[github]: https://github.com/akveo/ngx-app-frame
+[stackoverflow]: https://stackoverflow.com/questions/tagged/ngx-app-frame
+[issues]: https://github.com/akveo/ngx-app-frame/issues
+[new_issue]: https://github.com/akveo/ngx-app-frame/issues/new
+[pulls]: https://github.com/akveo/ngx-app-frame/pulls

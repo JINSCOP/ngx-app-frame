@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import { NB_WINDOW, NbMenuService } from '@oliveui/theme';
+import { NB_WINDOW, NbMenuService } from '@ngx-app-frame/theme';
 import { filter, map } from 'rxjs/operators';
 
 @Component({

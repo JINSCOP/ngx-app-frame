@@ -16,10 +16,10 @@
     "baseUrl": ".",
     "types": [],
     "paths": {
-      "@oliveui/theme": ["../src/framework/theme"],
-      "@oliveui/theme/*": ["../src/framework/theme/*"],
-      "@oliveui/auth": ["../src/framework/auth"],
-      "@oliveui/security": ["../src/framework/security"]
+      "@ngx-app-frame/theme": ["../src/framework/theme"],
+      "@ngx-app-frame/theme/*": ["../src/framework/theme/*"],
+      "@ngx-app-frame/auth": ["../src/framework/auth"],
+      "@ngx-app-frame/security": ["../src/framework/security"]
     }
   },
   "exclude": [

@@ -9,10 +9,10 @@ and the application contains two type of resources that needs to be protected (`
 
 ## ACL Configuration
 
-oliveui ACL has a simple way of setting it up. When registering a module you can specify a set of ACL rules by simply providing it as a module configuration.
+ngx-app-frame ACL has a simple way of setting it up. When registering a module you can specify a set of ACL rules by simply providing it as a module configuration.
 
 Let's assume that our guest users can only `view` `news` and `comments`, users can do everything as guests, but also can `create` `comments`, and moderators can also `create` and `remove` `news` and `comments`.
-Now, let's convert this into an ACL configuration object which oliveui can understand. Open your `app.module.ts` and change the `NbSecurityModule.forRoot()` call as follows:
+Now, let's convert this into an ACL configuration object which ngx-app-frame can understand. Open your `app.module.ts` and change the `NbSecurityModule.forRoot()` call as follows:
 
 ```ts
 @NgModule({
@@ -46,7 +46,7 @@ which means that we have a permission againts any resource (like moderators can 
 
 ## Role Configuration
 
-So far we told oliveui Security what roles-permissions-resources our application has. Now we need to specify how oliveui can determine a role of currently authenticated user.
+So far we told ngx-app-frame Security what roles-permissions-resources our application has. Now we need to specify how ngx-app-frame can determine a role of currently authenticated user.
 To do so we need to create a `RoleProvider` with one simple method `getRole`, which returns an `Observable<string>` of a role.
 In a simplest form we can provide this service directly in the main module:
 
@@ -55,7 +55,7 @@ In a simplest form we can provide this service directly in the main module:
 // ...
 
 import { of as observableOf } from 'rxjs/observable/of';
-import { NbSecurityModule, NbRoleProvider } from '@oliveui/security';
+import { NbSecurityModule, NbRoleProvider } from '@ngx-app-frame/security';
 
 
 @NgModule({
@@ -79,7 +79,7 @@ import { NbSecurityModule, NbRoleProvider } from '@oliveui/security';
     },
   ],
 ``` 
-That's easy we have just provided a role, so that oliveui can determine which user is currently accessing the app.
+That's easy we have just provided a role, so that ngx-app-frame can determine which user is currently accessing the app.
 The good thing about this configuration is that it's not tightly coupled with the rest of your authentication flow, which gives you a lot of flexibility over it.
 
 <hr>
@@ -88,7 +88,7 @@ The good thing about this configuration is that it's not tightly coupled with th
 
 But, in our example the role is "hardcoded", which in the real world app would be dynamic and depend on the current user. 
 
-Assuming that you already have `oliveui Auth` module fully configured and functioning based on `JWT` we will adjust the example to retrieve a role from the user token.
+Assuming that you already have `ngx-app-frame Auth` module fully configured and functioning based on `JWT` we will adjust the example to retrieve a role from the user token.
 
 Let's create a separate `role.provider.ts` service in order not to put a lot of logic into the module itself:
 
@@ -97,8 +97,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operators/map';
 
-import { NbAuthService, NbAuthJWTToken } from '@oliveui/auth';
-import { NbRoleProvider } from '@oliveui/security';
+import { NbAuthService, NbAuthJWTToken } from '@ngx-app-frame/auth';
+import { NbRoleProvider } from '@ngx-app-frame/security';
 
 
 @Injectable()
@@ -121,8 +121,8 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { map } from 'rxjs/operators/map';
 
-import { NbAuthService, NbAuthJWTToken } from '@oliveui/auth';
-import { NbRoleProvider } from '@oliveui/security';
+import { NbAuthService, NbAuthJWTToken } from '@ngx-app-frame/auth';
+import { NbRoleProvider } from '@ngx-app-frame/security';
 
 @Injectable()
 export class RoleProvider implements NbRoleProvider {
@@ -144,7 +144,7 @@ export class RoleProvider implements NbRoleProvider {
 So we subscribe to the `tokenChange` observable, which will produce a new token each time authentication change occurres. 
 Then we simply get a role from a token (for example simplicity, we assume that token payload always has a role value) or return default `guest` value.
 
-Don't worry if your setup does not use oliveui Auth. You can adjust this code to retrieve a user role from any service of your own. 
+Don't worry if your setup does not use ngx-app-frame Auth. You can adjust this code to retrieve a user role from any service of your own. 
 
 
 And let's provide the service in the app module:
@@ -153,7 +153,7 @@ And let's provide the service in the app module:
 // ...
 
 import { RoleProvider } from './role.provider';
-import { NbSecurityModule, NbRoleProvider } from '@oliveui/security';
+import { NbSecurityModule, NbRoleProvider } from '@ngx-app-frame/security';
 
 
 @NgModule({
@@ -178,7 +178,7 @@ import { NbSecurityModule, NbRoleProvider } from '@oliveui/security';
 Finally, we can move on to the part where we start putting security rules in our app. Let's assume that we have that `Post Comment` button, that should only be shown to authenticated users (with a role `user`).
 So we need to hide the button for guests. 
 
-oliveui Security provides us with a simple `*nbIsGranted` conditional directive, which under the hood works as `*ngIf`, showing or hiding a template block based on a user role:
+ngx-app-frame Security provides us with a simple `*nbIsGranted` conditional directive, which under the hood works as `*ngIf`, showing or hiding a template block based on a user role:
 
 ```typescript
 @Component({
@@ -197,7 +197,7 @@ We can adjust our example to utilize it. In your `comment-form.component.ts`, im
 
 ```typescript
 import { Component } from '@angular/core';
-import { NbAccessChecker } from '@oliveui/security';
+import { NbAccessChecker } from '@ngx-app-frame/security';
 
 @Component({
   // ...

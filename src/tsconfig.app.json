@@ -6,7 +6,7 @@
     "module": "es2015",
     "types": [],
     "paths": {
-      "@oliveui/*": [
+      "@ngx-app-frame/*": [
         "./framework/*"
       ]
     }

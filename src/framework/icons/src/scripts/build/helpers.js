@@ -11,7 +11,7 @@ const srcRoot = './tmp';
 const cssRoot = './css';
 const scssRoot = './scss';
 
-const iconsName = 'oliveui';
+const iconsName = 'ngx-app-frame';
 const license = `/**
  * @license
  * Copyright Akveo. All Rights Reserved.
@@ -37,7 +37,7 @@ function copyFonts() {
 
 function fixCss() {
     const srcCss = './style.css';
-    const buildCss = './oliveui-icons.css';
+    const buildCss = './ngx-app-frame-icons.css';
     const srcStylePath = path.join(srcRoot, srcCss);
 
     const file = fs.readFileSync(srcStylePath).toString();
@@ -72,33 +72,33 @@ function genScss() {
 }
 
 function genScssRoot() {
-    const buildScss = './oliveui-icons.scss';
+    const buildScss = './ngx-app-frame-icons.scss';
     const rootFileContent = `${license}
-@import 'oliveui-icons-variables';
-@import 'oliveui-icons-font';
+@import 'ngx-app-frame-icons-variables';
+@import 'ngx-app-frame-icons-font';
 `;
 
     fs.writeFileSync(path.join(scssRoot, buildScss), rootFileContent);
 }
 
 function genScssVariables() {
-    const buildScss = './_oliveui-icons-variables.scss';
+    const buildScss = './_ngx-app-frame-icons-variables.scss';
     const variablesContent = `${license}
-$oliveui-icons-font-path: '../fonts' !default;
-$oliveui-icons-font-family: 'oliveui' !default;
+$ngx-app-frame-icons-font-path: '../fonts' !default;
+$ngx-app-frame-icons-font-family: 'ngx-app-frame' !default;
 `;
 
     fs.writeFileSync(path.join(scssRoot, buildScss), variablesContent);
 }
 
 function genScssFont() {
-    const buildScss = './_oliveui-icons-font.scss';
-    const buildCss = path.join(cssRoot, 'oliveui-icons.css');
+    const buildScss = './_ngx-app-frame-icons-font.scss';
+    const buildCss = path.join(cssRoot, 'ngx-app-frame-icons.css');
 
     const file = fs.readFileSync(buildCss).toString();
     const content = file
-        .replace(/\.\.\/fonts/g, '#{$oliveui-icons-font-path}')
-        .replace(/(font-family: )(.*)(;)/g, '$1#{$oliveui-icons-font-family}$3');
+        .replace(/\.\.\/fonts/g, '#{$ngx-app-frame-icons-font-path}')
+        .replace(/(font-family: )(.*)(;)/g, '$1#{$ngx-app-frame-icons-font-family}$3');
 
     fs.writeFileSync(path.join(scssRoot, buildScss), content);
 }

@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class NgdVersionService {
 
-  getoliveuiVersion() {
+  getngx-app-frameVersion() {
     return require('../../../../package.json').version;
   }
 }

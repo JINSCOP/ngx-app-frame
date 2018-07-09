@@ -16,8 +16,8 @@ exports.config = {
     commonCapabilities: {
         'browserstack.user': process.env.BROWSERSTACK_USERNAME,
         'browserstack.key': process.env.BROWSERSTACK_ACCESS_KEY,
-        'build': '@oliveui/theme',
-        'name': '@oliveui/theme',
+        'build': '@ngx-app-frame/theme',
+        'name': '@ngx-app-frame/theme',
         'browserstack.local': true,
         'browserstack.debug': true,
         'browserName': 'chrome',

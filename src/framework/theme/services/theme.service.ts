@@ -15,7 +15,7 @@ import { NbJSThemesRegistry } from './js-themes-registry.service';
 import { NbMediaBreakpointsService, NbMediaBreakpoint } from './breakpoints.service';
 
 /**
- * Main oliveui service. Includes various helper methods.
+ * Main ngx-app-frame service. Includes various helper methods.
  */
 @Injectable()
 export class NbThemeService {

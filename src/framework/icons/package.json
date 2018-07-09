@@ -1,23 +1,23 @@
 {
-    "name": "@oliveui/icons",
+    "name": "@ngx-app-frame/icons",
     "version": "2.0.2",
-    "description": "oliveui icons - amazing icons crafted with love by Akveo team",
+    "description": "ngx-app-frame icons - amazing icons crafted with love by Akveo team",
     "author": "akveo",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akveo/oliveui.git"
+        "url": "git+https://github.com/akveo/ngx-app-frame.git"
     },
     "bugs": {
-        "url": "https://github.com/akveo/oliveui/issues"
+        "url": "https://github.com/akveo/ngx-app-frame/issues"
     },
-    "homepage": "https://github.com/akveo/oliveui#readme",
+    "homepage": "https://github.com/akveo/ngx-app-frame#readme",
     "keywords": [
         "theme",
         "fonts",
         "icon font",
         "icons",
-        "oliveui",
+        "ngx-app-frame",
         "web font"
     ],
     "files": [

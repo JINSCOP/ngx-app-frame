@@ -7,12 +7,12 @@
 import { Component, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { takeWhile, withLatestFrom, map } from 'rxjs/operators';
-import { NbThemeService, NbMenuItem, NbSidebarService, NbMenuService } from '@oliveui/theme';
+import { NbThemeService, NbMenuItem, NbSidebarService, NbMenuService } from '@ngx-app-frame/theme';
 
 import { NgdMenuService } from '../@theme/services/menu.service';
 import { NgdPaginationService } from '../@theme/services';
 
-import { NbMediaBreakpoint } from '@oliveui/theme';
+import { NbMediaBreakpoint } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'ngd-documentation',

@@ -5,7 +5,7 @@
  */
 
 import { Component, OnDestroy } from '@angular/core';
-import { NbAuthOAuth2Token, NbAuthResult, NbAuthService } from '@oliveui/auth';
+import { NbAuthOAuth2Token, NbAuthResult, NbAuthService } from '@ngx-app-frame/auth';
 import { takeWhile } from 'rxjs/operators';
 
 @Component({

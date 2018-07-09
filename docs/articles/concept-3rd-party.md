@@ -1,12 +1,12 @@
 # 3rd Party Components
 
-Currently oliveui Theme system is integrated with the following 3rd party modules:
+Currently ngx-app-frame Theme system is integrated with the following 3rd party modules:
 
 - Bootstrap 4;
 - ng2-smart-table;
 - angular2-toaster.
 
-It means that we've created style overriding for these modules, so that you can change component's look & feel using oliveui theme variables.
+It means that we've created style overriding for these modules, so that you can change component's look & feel using ngx-app-frame theme variables.
 For example, if you change the `color-primary` variable, bootstrap components using this color will be changed accordingly.
 
 

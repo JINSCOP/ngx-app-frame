@@ -5,7 +5,7 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbCardModule } from '@oliveui/theme';
+import { NbCardModule } from '@ngx-app-frame/theme';
 
 import { NgdDocumentationRoutingModule } from './documentation-routing.module';
 import { NgdThemeModule } from '../@theme/theme.module';

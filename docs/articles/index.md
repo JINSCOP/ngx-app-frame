@@ -1,38 +1,38 @@
-# What is oliveui?
+# What is ngx-app-frame?
 
-oliveui is a set of essential modules for your next Angular application.
+ngx-app-frame is a set of essential modules for your next Angular application.
 
 The purpose of the modules is to solve generic tasks faster and more efficient so that you can focus on business logic and leave routine behind.
 
 <div class="note note-info">
   <div class="note-title">Current state</div>
   <div class="note-body">
-    oliveui is in <i>RC</i> now, meaning that we are on the final path to the release.
+    ngx-app-frame is in <i>RC</i> now, meaning that we are on the final path to the release.
   </div>
 </div>
 <hr>
 
 ## What's included
 
-oliveui modules are distributed as separated `npm` packages, here's a list of currently available:
+ngx-app-frame modules are distributed as separated `npm` packages, here's a list of currently available:
 
-- oliveui Theme `@oliveui/theme`
+- ngx-app-frame Theme `@ngx-app-frame/theme`
   - Theme System - set of SCSS rules, which allows you to modify application look & feel by changing variables, with fewer custom styles.
   - UI Kit - pure Angular components with two style themes and no 3rd party dependencies.
   - Style overriding for Bootstrap, so that the application has a consistent look & feel across libraries.
   - Server-side rendering compatibility!
   - Right-to-left writing system support for all components.
-- oliveui Auth `@oliveui/auth`
+- ngx-app-frame Auth `@ngx-app-frame/auth`
   - Authentication components (login/register/reset password/restore password).
   - Multiple configurable authentication Strategies (backend connectors).
   - Helpers for token management (storing, passing with HTTP requests, etc).
-- oliveui Security `@oliveui/security` 
+- ngx-app-frame Security `@ngx-app-frame/security` 
   - module for roles and permissions management.
-- Admin dashboard starter kit <a href="https://github.com/akveo/ngx-admin" target="_blank">ngx-admin</a> - Angular application based on oliveui modules with beautiful IOT components.
+- Admin dashboard starter kit <a href="https://github.com/akveo/ngx-admin" target="_blank">ngx-admin</a> - Angular application based on ngx-app-frame modules with beautiful IOT components.
 
 Other ideas
-- *@oliveui/dashboard* - module for draggable/resizable dashboards creation.
-- *@oliveui/data* - application data & state management.
+- *@ngx-app-frame/dashboard* - module for draggable/resizable dashboards creation.
+- *@ngx-app-frame/data* - application data & state management.
 <hr>
 
 ## The purpose
@@ -50,4 +50,4 @@ That's why we are on a mission to assemble together the most useful modules and 
 This documentation assumes that you are already familiar with JavaScript/TypeScript, Angular, CSS and Bootstrap.
 
 ## Have questions?
-Didn't find something here? Look through the <a href="https://github.com/akveo/oliveui/issues" target="_blank">issues</a> or simply drop us a line at <a href="mailto:contact@akveo.com">contact@akveo.com</a>.
+Didn't find something here? Look through the <a href="https://github.com/akveo/ngx-app-frame/issues" target="_blank">issues</a> or simply drop us a line at <a href="mailto:contact@akveo.com">contact@akveo.com</a>.

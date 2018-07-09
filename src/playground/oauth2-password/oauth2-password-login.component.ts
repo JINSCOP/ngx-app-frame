@@ -12,7 +12,7 @@ import {
   NB_AUTH_OPTIONS,
   nbAuthCreateToken,
   NbAuthJWTToken,
-} from '@oliveui/auth';
+} from '@ngx-app-frame/auth';
 import { Router } from '@angular/router';
 import { getDeepFromObject } from '../../framework/auth/helpers';
 

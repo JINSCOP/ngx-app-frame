@@ -19,7 +19,7 @@ export class NbChatColorsComponent {
   chats: any[] = [
     {
       status: 'success',
-      title: 'oliveui Conversational UI Success',
+      title: 'ngx-app-frame Conversational UI Success',
       messages: [
         {
           text: 'Success!',
@@ -34,7 +34,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'danger',
-      title: 'oliveui Conversational UI Danger',
+      title: 'ngx-app-frame Conversational UI Danger',
       messages: [
         {
           text: 'Danger!',
@@ -49,7 +49,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'primary',
-      title: 'oliveui Conversational UI Primary',
+      title: 'ngx-app-frame Conversational UI Primary',
       messages: [
         {
           text: 'Primary!',
@@ -64,7 +64,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'info',
-      title: 'oliveui Conversational UI Info',
+      title: 'ngx-app-frame Conversational UI Info',
       messages: [
         {
           text: 'Info!',
@@ -79,7 +79,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'warning',
-      title: 'oliveui Conversational UI Warning',
+      title: 'ngx-app-frame Conversational UI Warning',
       messages: [
         {
           text: 'Warning!',
@@ -94,7 +94,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'active',
-      title: 'oliveui Conversational UI Active',
+      title: 'ngx-app-frame Conversational UI Active',
       messages: [
         {
           text: 'Active!',
@@ -109,7 +109,7 @@ export class NbChatColorsComponent {
     },
     {
       status: 'disabled',
-      title: 'oliveui Conversational UI Disabled',
+      title: 'ngx-app-frame Conversational UI Disabled',
       messages: [
         {
           text: 'Disabled!',

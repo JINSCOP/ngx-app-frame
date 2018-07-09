@@ -5,9 +5,9 @@
  */
 
 @font-face {
-    font-family: 'oliveui';
-    src: url('../fonts/oliveui.eot?m2yqa');
-    src: url('../fonts/oliveui.eot?m2yqa#iefix') format('embedded-opentype'), url('../fonts/oliveui.ttf?m2yqa') format('truetype'), url('../fonts/oliveui.woff?m2yqa') format('woff'), url('../fonts/oliveui.svg?m2yqa#oliveui') format('svg');
+    font-family: 'ngx-app-frame';
+    src: url('../fonts/ngx-app-frame.eot?m2yqa');
+    src: url('../fonts/ngx-app-frame.eot?m2yqa#iefix') format('embedded-opentype'), url('../fonts/ngx-app-frame.ttf?m2yqa') format('truetype'), url('../fonts/ngx-app-frame.woff?m2yqa') format('woff'), url('../fonts/ngx-app-frame.svg?m2yqa#ngx-app-frame') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -106,7 +106,7 @@
 .nb-expand,
 .nb-collapse {
     /* use !important to prevent issues with browser extensions that change ../fonts */
-    font-family: 'oliveui' !important;
+    font-family: 'ngx-app-frame' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;

@@ -2,7 +2,7 @@
     "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
     "schematics": {
         "new-component": {
-            "description": "A new oliveui component schematic.",
+            "description": "A new ngx-app-frame component schematic.",
             "factory": "./new-component/index#newComponent",
             "schema": "./new-component/schema.json"
         }

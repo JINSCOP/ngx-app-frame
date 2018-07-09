@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { NbCardModule, NbCheckboxModule, NbLayoutModule } from '@oliveui/theme';
+import { NbCardModule, NbCheckboxModule, NbLayoutModule } from '@ngx-app-frame/theme';
 
 import {
   NB_AUTH_FALLBACK_TOKEN,

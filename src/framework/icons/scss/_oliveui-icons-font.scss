@@ -108,8 +108,8 @@
 .nb-info,
 .nb-expand,
 .nb-collapse {
-    /* use !important to prevent issues with browser extensions that change #{$oliveui-icons-font-path} */
-    font-family: #{$oliveui-icons-font-family};
+    /* use !important to prevent issues with browser extensions that change #{$ngx-app-frame-icons-font-path} */
+    font-family: #{$ngx-app-frame-icons-font-family};
     speak: none;
     font-style: normal;
     font-weight: normal;

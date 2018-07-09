@@ -9,13 +9,13 @@
 <hr>
 
 ## Basic setup
-**When**: You just need the default styles provided by oliveui (cosmic or default theme) and don't plan to use variables or hot-reload support.
+**When**: You just need the default styles provided by ngx-app-frame (cosmic or default theme) and don't plan to use variables or hot-reload support.
 
 1) Then you just need to include a CSS file of a theme you want to use into your `.angular-cli.json` file like this:
 
 ```scss
 "styles": [
-        "../node_modules/@oliveui/theme/styles/prebuilt/cosmic.css", // or default.css
+        "../node_modules/@ngx-app-frame/theme/styles/prebuilt/cosmic.css", // or default.css
       ],
 
 ```
@@ -28,12 +28,12 @@ And that is all. In the future, if you need any of the advanced features - you c
 
 *Note*: the setup might look a bit verbose, but unfortunately angular-cli support on custom configurations is quite limited, hopefully with the future releases and plugins support this will be reduced significantly.
 
-1) Create a `themes.scss` file with a oliveui theme declaration. We assume that our theme will be based on the `default` theme and we'll keep it named as `default`.
+1) Create a `themes.scss` file with a ngx-app-frame theme declaration. We assume that our theme will be based on the `default` theme and we'll keep it named as `default`.
 
 ```scss
-// import oliveui Theme System and the default theme
-@import '~@oliveui/theme/styles/theming';
-@import '~@oliveui/theme/styles/themes/default';
+// import ngx-app-frame Theme System and the default theme
+@import '~@ngx-app-frame/theme/styles/theming';
+@import '~@ngx-app-frame/theme/styles/themes/default';
 
 // and change the variables you need, 
 // or simply leave the map empty to use the default values
@@ -54,7 +54,7 @@ $nb-themes: nb-register-theme((
 @import 'themes';
 
 // framework component styles which will use your new theme
-@import '~@oliveui/theme/styles/globals';
+@import '~@ngx-app-frame/theme/styles/globals';
 
 // install the framework
 @include nb-install() {
@@ -91,13 +91,13 @@ At this step you will have something similar to the image below:
 
 This setup assumes that you have gone through the *Normal Setup* steps.
 
-1) Assuming you already have the `themes.scss` file with `default` theme from the previous step, let's add a new theme there, that will be based on the `cosmic` oliveui theme and named `dark`:
+1) Assuming you already have the `themes.scss` file with `default` theme from the previous step, let's add a new theme there, that will be based on the `cosmic` ngx-app-frame theme and named `dark`:
 
 ```scss
 ...
 
 // add cosmic theme import below the default theme;
-@import '~@oliveui/theme/styles/themes/cosmic';
+@import '~@ngx-app-frame/theme/styles/themes/cosmic';
 
 // and mark both themes as enabled 
 $nb-enabled-themes: (default, dark);
@@ -119,9 +119,9 @@ $nb-themes: nb-register-theme((
 So that your `themes.scss` file looks like this:
 
 ```scss
-@import '~@oliveui/theme/styles/theming';
-@import '~@oliveui/theme/styles/themes/default';
-@import '~@oliveui/theme/styles/themes/cosmic';
+@import '~@ngx-app-frame/theme/styles/theming';
+@import '~@ngx-app-frame/theme/styles/themes/default';
+@import '~@ngx-app-frame/theme/styles/themes/cosmic';
 
 $nb-enabled-themes: (default, dark);
 

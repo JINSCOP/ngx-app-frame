@@ -251,7 +251,7 @@ describe('nb-menu', () => {
 
             menu333el.getText()
               .then(val => {
-                expect(val).toEqual('@oliveui/theme');
+                expect(val).toEqual('@ngx-app-frame/theme');
               });
 
             menu333el.click()

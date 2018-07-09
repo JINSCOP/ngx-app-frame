@@ -1,8 +1,8 @@
-# oliveui Components
+# ngx-app-frame Components
 
-oliveui Components is a list of pure Angular components allowing you to quickly create a new page filled with essential structure.
+ngx-app-frame Components is a list of pure Angular components allowing you to quickly create a new page filled with essential structure.
 
-Here's a list of oliveui components:
+Here's a list of ngx-app-frame components:
 
 - [Layout](docs/components/layout) including header and footer
 - [Sidebar](docs/components/sidebar)
@@ -22,6 +22,6 @@ Here's a list of oliveui components:
 <div class="note note-info">
   <div class="note-title">3rd Party Libraries</div>
   <div class="note-body">
-    oliveui doesn't limit you to use only these components. Moreover, we highly recommend using other libraries such as Bootstrap or Angular Material in pair with oliveui layout components.
+    ngx-app-frame doesn't limit you to use only these components. Moreover, we highly recommend using other libraries such as Bootstrap or Angular Material in pair with ngx-app-frame layout components.
   </div>
 </div>

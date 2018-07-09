@@ -13,4 +13,4 @@ export interface NbAclOptions {
   accessControl?: NbAccessControl,
 }
 
-export const NB_SECURITY_OPTIONS_TOKEN = new InjectionToken<NbAclOptions>('oliveui Security Options');
+export const NB_SECURITY_OPTIONS_TOKEN = new InjectionToken<NbAclOptions>('ngx-app-frame Security Options');

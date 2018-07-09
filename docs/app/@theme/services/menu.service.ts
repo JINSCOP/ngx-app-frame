@@ -5,7 +5,7 @@
  */
 
 import { Injectable } from '@angular/core';
-import { NbMenuItem } from '@oliveui/theme';
+import { NbMenuItem } from '@ngx-app-frame/theme';
 
 import { NgdStructureService } from './structure.service';
 import { NgdTextService } from './text.service';

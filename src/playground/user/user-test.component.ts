@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbBadgeComponent } from '@oliveui/theme';
+import { NbBadgeComponent } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'nb-user-test',

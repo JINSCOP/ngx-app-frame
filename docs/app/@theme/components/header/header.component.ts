@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, HostBinding, Input } from '@angular/core';
-import { NbMenuItem, NbSidebarService } from '@oliveui/theme';
+import { NbMenuItem, NbSidebarService } from '@ngx-app-frame/theme';
 import { NgdVersionService } from '../../services';
 
 @Component({
@@ -11,7 +11,7 @@ import { NgdVersionService } from '../../services';
         <i class="nb-menu"></i>
       </button>
       <div class="logo">
-        <a routerLink="/">oliveui</a>
+        <a routerLink="/">ngx-app-frame</a>
         <span class="version">v{{ currentVersion }}</span>
       </div>
     </div>
@@ -21,7 +21,7 @@ import { NgdVersionService } from '../../services';
     </div>
     <div class="section right">
       <iframe class="stars"
-              src="https://ghbtns.com/github-btn.html?user=akveo&repo=oliveui&type=star&count=true"
+              src="https://ghbtns.com/github-btn.html?user=akveo&repo=ngx-app-frame&type=star&count=true"
               frameborder="0"
               scrolling="0">
       </iframe>
@@ -40,7 +40,7 @@ export class NgdHeaderComponent {
     versionService: NgdVersionService,
     private sidebarService: NbSidebarService,
   ) {
-    this.currentVersion = versionService.getoliveuiVersion();
+    this.currentVersion = versionService.getngx-app-frameVersion();
   }
 
   mainMenu: NbMenuItem[] = [

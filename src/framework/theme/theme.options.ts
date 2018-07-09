@@ -12,10 +12,10 @@ export interface NbThemeOptions {
   name: string;
 }
 
-export const NB_THEME_OPTIONS = new InjectionToken<NbThemeOptions>('oliveui Theme Options');
-export const NB_MEDIA_BREAKPOINTS = new InjectionToken<NbMediaBreakpoint[]>('oliveui Media Breakpoints');
-export const NB_BUILT_IN_JS_THEMES = new InjectionToken<NbJSThemeOptions[]>('oliveui Built-in JS Themes');
-export const NB_JS_THEMES = new InjectionToken<NbJSThemeOptions[]>('oliveui JS Themes');
+export const NB_THEME_OPTIONS = new InjectionToken<NbThemeOptions>('ngx-app-frame Theme Options');
+export const NB_MEDIA_BREAKPOINTS = new InjectionToken<NbMediaBreakpoint[]>('ngx-app-frame Media Breakpoints');
+export const NB_BUILT_IN_JS_THEMES = new InjectionToken<NbJSThemeOptions[]>('ngx-app-frame Built-in JS Themes');
+export const NB_JS_THEMES = new InjectionToken<NbJSThemeOptions[]>('ngx-app-frame JS Themes');
 
 /**
  * We're providing browser apis with tokens to improve testing capabilities.

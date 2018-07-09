@@ -10,7 +10,7 @@
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="oliveui-new-header" transform="translate(-397.000000, -322.000000)" fill="url(#linearGradient-1)">
+        <g id="ngx-app-frame-new-header" transform="translate(-397.000000, -322.000000)" fill="url(#linearGradient-1)">
             <g id="Group-2" transform="translate(386.000000, 310.000000)">
                 <g id="drops-copy-4" transform="translate(8.000000, 8.000000)">
                     <path d="M10.9159364,4.59090909 L3.99048182,17.052 C2.28039091,20.1270909 2.82402727,24.0152727 5.31411818,26.5018182 C6.85757273,28.0464545 8.88675455,28.8181818 10.9159364,28.8181818 C12.9451182,28.8181818 14.9743,28.0464545 16.5177545,26.5018182 C19.0078455,24.0152727 19.5514818,20.1270909 17.8413909,17.052 L10.9159364,4.59090909 Z" id="Fill-1"></path>

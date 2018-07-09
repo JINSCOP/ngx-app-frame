@@ -13,13 +13,13 @@ import { HttpClientModule } from '@angular/common/http';
 import {
   NbCardModule,
   NbLayoutModule,
-} from '@oliveui/theme';
+} from '@ngx-app-frame/theme';
 
 import {
   NbAuthModule,
   NbOAuth2AuthStrategy,
   NbOAuth2ResponseType,
-} from '@oliveui/auth';
+} from '@ngx-app-frame/auth';
 
 import { NbOAuth2LoginComponent } from './oauth2-login.component';
 import { NbOAuth2CallbackComponent } from './oauth2-callback.component';
@@ -52,7 +52,7 @@ import { NbOAuth2CallbackComponent } from './oauth2-callback.component';
             endpoint: 'https://accounts.google.com/o/oauth2/v2/auth',
             responseType: NbOAuth2ResponseType.TOKEN,
             scope: 'https://www.googleapis.com/auth/userinfo.profile',
-            redirectUri: 'https://akveo.github.io/oliveui/example/oauth2/callback',
+            redirectUri: 'https://akveo.github.io/ngx-app-frame/example/oauth2/callback',
           },
 
           redirect: {

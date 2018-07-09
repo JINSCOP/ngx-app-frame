@@ -14,7 +14,7 @@
     },
     "**/*.js.map": true,
 
-    // exclude @oliveui build folders
+    // exclude @ngx-app-frame build folders
     "**/.lib": true
   }
 }

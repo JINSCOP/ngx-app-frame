@@ -8,7 +8,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { ActivatedRoute } from '@angular/router';
 import { Observable, of as observableOf } from 'rxjs';
 import { switchMap, map, catchError } from 'rxjs/operators';
-import { NB_WINDOW } from '@oliveui/theme';
+import { NB_WINDOW } from '@ngx-app-frame/theme';
 
 import { NbAuthStrategy } from '../auth-strategy';
 import { NbAuthRefreshableToken, NbAuthResult } from '../../services/';

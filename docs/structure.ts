@@ -5,7 +5,7 @@ export const structure = [
     children: [
       {
         type: 'page',
-        name: 'What is oliveui?',
+        name: 'What is ngx-app-frame?',
         children: [
           {
             type: 'block',

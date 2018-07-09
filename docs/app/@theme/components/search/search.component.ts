@@ -1,5 +1,5 @@
 import { AfterViewInit, ChangeDetectionStrategy, Component, Inject } from '@angular/core';
-import { NB_WINDOW } from '@oliveui/theme';
+import { NB_WINDOW } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'ngd-search',
@@ -18,7 +18,7 @@ export class NgdSearchComponent implements AfterViewInit {
   ngAfterViewInit() {
     this.window.docsearch({
       apiKey: 'fe0dbef6ee2b748314266d7d71d7dea3',
-      indexName: 'oliveui',
+      indexName: 'ngx-app-frame',
       inputSelector: '#doc-search',
       debug: false,
     });

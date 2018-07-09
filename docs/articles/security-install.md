@@ -11,13 +11,13 @@ First, let's install the module as it's distributed as an npm package. Security 
 
 
 ```bash
-npm i @oliveui/security
+npm i @ngx-app-frame/security
 ```
 <hr>   
 ## Import the module:
 
 ```ts
-import { NbSecurityModule } from '@oliveui/security
+import { NbSecurityModule } from '@ngx-app-frame/security
 ```
 <hr>
 ## Register it
@@ -32,7 +32,7 @@ Now, let's register the module in the root module:
    NbSecurityModule.forRoot(),
 ```
 
-Great, at this stage we have installed oliveui Security and ready to configure it.
+Great, at this stage we have installed ngx-app-frame Security and ready to configure it.
 
 <hr>
 

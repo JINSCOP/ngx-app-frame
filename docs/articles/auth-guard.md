@@ -5,7 +5,7 @@ Let's imagine we have the following application structure:
 - `/auth/*` - authentication area (login/register/etc) available for non-authenticated users
 
 Angular provides a simple way to protect your routes called [Router Guard](https://angular.io/guide/router#guard-the-admin-feature).
-Here's how we combine it with oliveui Auth to protect `/pages/*` from anonymous users:
+Here's how we combine it with ngx-app-frame Auth to protect `/pages/*` from anonymous users:
 <hr>
 
 ## Create a guard
@@ -31,7 +31,7 @@ Then, let's import `NbAuthService` and complete the `canActivate` method:
 ```ts
 import { Injectable } from '@angular/core';
 import { CanActivate } from '@angular/router';
-import { NbAuthService } from '@oliveui/auth';
+import { NbAuthService } from '@ngx-app-frame/auth';
 
 @Injectable()
 export class AuthGuard implements CanActivate {
@@ -104,7 +104,7 @@ Let's modify our guard a bit to reflect this logic:
 ```ts
 import { Injectable } from '@angular/core';
 import { CanActivate, Router } from '@angular/router';
-import { NbAuthService } from '@oliveui/auth';
+import { NbAuthService } from '@ngx-app-frame/auth';
 import { tap } from 'rxjs/operators/tap';
 
 @Injectable()

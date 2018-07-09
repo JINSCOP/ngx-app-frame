@@ -9,11 +9,11 @@
 
 ## Install the module
 
-First, let's install the module as it's distributed as npm package. Make sure you have the [oliveui Theme module up and running](https://akveo.github.io/oliveuidocs/installation/add-into-existing-project).
-oliveui Theme is required to use built-in Auth Components. If you are not going to use those at all, you can use `Auth Module` without the `oliveui Theme` module.  
+First, let's install the module as it's distributed as npm package. Make sure you have the [ngx-app-frame Theme module up and running](https://akveo.github.io/ngx-app-framedocs/installation/add-into-existing-project).
+ngx-app-frame Theme is required to use built-in Auth Components. If you are not going to use those at all, you can use `Auth Module` without the `ngx-app-frame Theme` module.  
 
 ```bash
-npm i @oliveui/auth
+npm i @ngx-app-frame/auth
 ```
 <hr>
 
@@ -22,7 +22,7 @@ npm i @oliveui/auth
 Import the module and `NbPasswordAuthStrategy` strategy:
 
 ```ts
-import { NbPasswordAuthStrategy, NbAuthModule } from '@oliveui/auth';
+import { NbPasswordAuthStrategy, NbAuthModule } from '@ngx-app-frame/auth';
 ```
 
 <hr>
@@ -67,7 +67,7 @@ import {
   NbLogoutComponent,
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
-} from '@oliveui/auth';
+} from '@ngx-app-frame/auth';
 
 export const routes: Routes = [
   // ... 
@@ -112,7 +112,7 @@ export const routes: Routes = [
 Last but not least - install the component styles into your styles.scss ([more details](docs/guides/enabling-theme-system)):
 
 ```scss
-@import '~@oliveui/auth/styles/all'; // or @import '~@oliveui/auth/styles/{theme-name}';
+@import '~@ngx-app-frame/auth/styles/all'; // or @import '~@ngx-app-frame/auth/styles/{theme-name}';
 
 // ... 
 

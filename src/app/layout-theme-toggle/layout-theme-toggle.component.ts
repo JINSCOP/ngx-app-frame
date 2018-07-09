@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbThemeService } from '@oliveui/theme';
+import { NbThemeService } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'nb-layout-theme-toggle',

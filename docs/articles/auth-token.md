@@ -2,7 +2,7 @@
 
 ## Receiving user token after login/registration
 
-At this step, we assume that oliveui Auth module is up and running, 
+At this step, we assume that ngx-app-frame Auth module is up and running, 
 you have successfully configured an auth strategy and adjusted auth look & fell accordingly with your requirements.
 
 It's time to get a user token after successful authentication to be able to communicate with the server and, for instance, show a username in the header of the application.
@@ -14,7 +14,7 @@ and `NbOAuth2AuthProvider` uses `NbAuthOAuth2Token`. It is also possible to spec
 
 ## Configure token type
 
-Let's tell oliveui that we are waiting for a JWT token instead of a simple string token.
+Let's tell ngx-app-frame that we are waiting for a JWT token instead of a simple string token.
 We just need to provide a respective class to do that. Open your `app.module.ts` and adjust your `Strategy` configuration:
 
 ```typescript
@@ -55,7 +55,7 @@ By default `NbPasswordAuthStrategy` expects that your token is located under the
 }
 ```
 
-We'll assume that our API returns a token as just `{ token: 'some-jwt-token' }` not wrapping your response in `data` property, let's tell that to oliveui:
+We'll assume that our API returns a token as just `{ token: 'some-jwt-token' }` not wrapping your response in `data` property, let's tell that to ngx-app-frame:
 
 ```typescript
 
@@ -88,7 +88,7 @@ We'll assume that our API returns a token as just `{ token: 'some-jwt-token' }` 
 Okay, let's use the token to extract a payload and show a username in the header. Open your `header.component.ts` and import the following services:
 
 ```typescript
-import { NbAuthJWTToken, NbAuthService } from '@oliveui/auth';
+import { NbAuthJWTToken, NbAuthService } from '@ngx-app-frame/auth';
 ```
 
 Then, let's create `user` variable, which will store the token payload inside of the component: 

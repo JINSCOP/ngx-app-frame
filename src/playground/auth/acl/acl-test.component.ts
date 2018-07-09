@@ -5,7 +5,7 @@
  */
 
 import { Component } from '@angular/core';
-import { NbAccessChecker } from '@oliveui/security';
+import { NbAccessChecker } from '@ngx-app-frame/security';
 
 @Component({
   selector: 'nb-actions-test',

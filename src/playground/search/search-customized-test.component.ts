@@ -6,7 +6,7 @@
 
 import { Component, OnInit } from '@angular/core';
 
-import { NbSearchService } from '@oliveui/theme';
+import { NbSearchService } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'nb-search-test-customized',

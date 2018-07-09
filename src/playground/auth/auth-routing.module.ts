@@ -15,7 +15,7 @@ import {
   NbRegisterComponent,
   NbRequestPasswordComponent,
   NbResetPasswordComponent,
-} from '@oliveui/auth';
+} from '@ngx-app-frame/auth';
 import { NbAclTestComponent } from './acl/acl-test.component';
 import { NbAuthGuard } from './auth-guard.service';
 

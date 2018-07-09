@@ -25,10 +25,10 @@ const ROLLUP_GLOBALS = {
 
   // 3rd party dependencies
 
-  // @oliveui dependencies
-  '@oliveui/theme': 'nb.theme',
-  '@oliveui/auth': 'nb.auth',
-  '@oliveui/security': 'nb.security',
+  // @ngx-app-frame dependencies
+  '@ngx-app-frame/theme': 'nb.theme',
+  '@ngx-app-frame/auth': 'nb.auth',
+  '@ngx-app-frame/security': 'nb.security',
 };
 
 export const ROLLUP_COMMON_CONFIG = {

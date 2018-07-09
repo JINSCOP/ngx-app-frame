@@ -1,5 +1,5 @@
 {
-    "name": "oliveui",
+    "name": "ngx-app-frame",
     "version": "2.0.3",
     "license": "MIT",
     "author": "金飞 <28206254@qq.com>",
@@ -9,10 +9,10 @@
         "IE 11"
     ],
     "bugs": {
-        "url": "https://github.com/akveo/oliveui/issues"
+        "url": "https://github.com/akveo/ngx-app-frame/issues"
     },
-    "homepage": "https://github.com/akveo/oliveui#readme",
-    "repository": "git+https://github.com/akveo/oliveui.git",
+    "homepage": "https://github.com/akveo/ngx-app-frame#readme",
+    "repository": "git+https://github.com/akveo/ngx-app-frame.git",
     "scripts": {
         "ng": "ng",
         "ngh": "ngh",
@@ -26,7 +26,7 @@
         "docs:prepare": "npm-run-all docs:parse",
         "docs:start": "npm start -- docs --port 4100",
         "docs:serve": "npm-run-all docs:prepare docs:start",
-        "docs:build": "npm run docs:prepare && npm run build:prod -- docs --base-href '/oliveui/' && npm run docs:dirs",
+        "docs:build": "npm run docs:prepare && npm run build:prod -- docs --base-href '/ngx-app-frame/' && npm run docs:dirs",
         "docs:dirs": "gulp create-docs-dirs",
         "docs:gh-pages": "npm run docs:build && npm run ngh -- --dir ./docs/dist",
         "build": "ng build",
@@ -74,7 +74,7 @@
         "ng2-admin",
         "ngx-admin",
         "framework",
-        "oliveui"
+        "ngx-app-frame"
     ],
     "dependencies": {
         "@angular/animations": "6.0.0",
@@ -86,10 +86,10 @@
         "@angular/platform-browser": "6.0.0",
         "@angular/platform-browser-dynamic": "6.0.0",
         "@angular/router": "6.0.0",
-        "@oliveui/auth": "^2.0.3",
-        "@oliveui/icons": "^2.0.2",
-        "@oliveui/security": "^2.0.3",
-        "@oliveui/theme": "^2.0.3",
+        "@ngx-app-frame/auth": "^2.0.3",
+        "@ngx-app-frame/icons": "^2.0.2",
+        "@ngx-app-frame/security": "^2.0.3",
+        "@ngx-app-frame/theme": "^2.0.3",
         "bootstrap": "4.0.0",
         "colors.js": "1.2.4",
         "core-js": "2.5.1",

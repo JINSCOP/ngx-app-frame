@@ -1,7 +1,7 @@
 {
-    "name": "@oliveui/theme",
+    "name": "@ngx-app-frame/theme",
     "version": "2.0.3",
-    "description": "@oliveui/theme",
+    "description": "@ngx-app-frame/theme",
     "main": "./bundles/theme.umd.js",
     "module": "./index.js",
     "typings": "./index.d.ts",
@@ -9,19 +9,19 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akveo/oliveui.git"
+        "url": "git+https://github.com/akveo/ngx-app-frame.git"
     },
     "bugs": {
-        "url": "https://github.com/akveo/oliveui/issues"
+        "url": "https://github.com/akveo/ngx-app-frame/issues"
     },
-    "homepage": "https://github.com/akveo/oliveui#readme",
+    "homepage": "https://github.com/akveo/ngx-app-frame#readme",
     "keywords": [
         "angular",
         "typescript",
         "ng2-admin",
         "ngx-admin",
         "theme",
-        "oliveui"
+        "ngx-app-frame"
     ],
     "peerDependencies": {
         "@angular/animations": "^6.0.0",

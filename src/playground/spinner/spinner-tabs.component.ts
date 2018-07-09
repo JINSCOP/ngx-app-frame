@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
 
           <nb-tab tabTitle="Tab 2" [nbSpinner]="loading" nbSpinnerStatus="info" nbSpinnerSize="xxlarge">
             <p>
-              oliveui's primary goal is to assemble together and connect the most awesome features and libraries
+              ngx-app-frame's primary goal is to assemble together and connect the most awesome features and libraries
               creating an efficient ecosystem to speed up and simplify the development.
             </p>
           </nb-tab>

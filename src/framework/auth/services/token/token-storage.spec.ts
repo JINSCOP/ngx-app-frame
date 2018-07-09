@@ -9,7 +9,7 @@ import { async, inject, TestBed } from '@angular/core/testing';
 import { NbTokenLocalStorage, NbTokenStorage } from './token-storage';
 import { NB_AUTH_TOKENS } from '../../auth.options';
 import { NbAuthSimpleToken, nbAuthCreateToken } from './token';
-import { NbAuthJWTToken } from '@oliveui/auth/services/token/token';
+import { NbAuthJWTToken } from '@ngx-app-frame/auth/services/token/token';
 import { NB_AUTH_FALLBACK_TOKEN, NbAuthTokenParceler } from './token-parceler';
 
 describe('token-storage', () => {

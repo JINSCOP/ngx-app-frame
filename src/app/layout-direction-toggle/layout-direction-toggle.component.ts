@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NbLayoutDirectionService, NbLayoutDirection } from '@oliveui/theme';
+import { NbLayoutDirectionService, NbLayoutDirection } from '@ngx-app-frame/theme';
 
 @Component({
   selector: 'nb-layout-direction-toggle',

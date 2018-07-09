@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/schema",
     "id": "new-component",
-    "title": "New oliveui Component Schema",
+    "title": "New ngx-app-frame Component Schema",
     "type": "object",
     "properties": {
         "name": {

@@ -13,15 +13,15 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import {
   NbCardModule,
   NbLayoutModule,
-} from '@oliveui/theme';
+} from '@ngx-app-frame/theme';
 
 import {
   NbAuthJWTToken,
   NbAuthModule,
   NbPasswordAuthStrategy,
   NbDummyAuthStrategy, NbAuthJWTInterceptor,
-} from '@oliveui/auth';
-import { NbSecurityModule, NbRoleProvider } from '@oliveui/security';
+} from '@ngx-app-frame/auth';
+import { NbSecurityModule, NbRoleProvider } from '@ngx-app-frame/security';
 
 import { NbAuthPlaygroundComponent } from './auth.component';
 import { NbAuthPlaygroundRoutingModule } from './auth-routing.module';

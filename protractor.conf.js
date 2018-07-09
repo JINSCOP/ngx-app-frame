@@ -53,7 +53,7 @@ if (process.env['TRAVIS']) {
             'version': 'latest',
             'tunnel-identifier': process.env['TRAVIS_JOB_ID'],
             'build': process.env['TRAVIS_JOB_ID'],
-            'name': 'oliveui E2E Tests',
+            'name': 'ngx-app-frame E2E Tests',
 
             // Enables concurrent testing in the Webdriver. Currently runs five e2e files in parallel.
             'maxInstances': 5,
@@ -74,7 +74,7 @@ if (process.env['TRAVIS']) {
             'browserstack.localIdentifier': process.env['TRAVIS_JOB_ID'],
             'browserstack.local': 'true',
             'build': process.env['TRAVIS_JOB_ID'],
-            'name': 'oliveui E2E Tests',
+            'name': 'ngx-app-frame E2E Tests',
             'browserName': 'chrome',
         };
     }

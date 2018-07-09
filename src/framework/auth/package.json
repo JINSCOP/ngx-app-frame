@@ -1,7 +1,7 @@
 {
-    "name": "@oliveui/auth",
+    "name": "@ngx-app-frame/auth",
     "version": "2.0.3",
-    "description": "@oliveui/auth",
+    "description": "@ngx-app-frame/auth",
     "main": "./bundles/auth.umd.js",
     "module": "./index.js",
     "typings": "./index.d.ts",
@@ -9,12 +9,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akveo/oliveui.git"
+        "url": "git+https://github.com/akveo/ngx-app-frame.git"
     },
     "bugs": {
-        "url": "https://github.com/akveo/oliveui/issues"
+        "url": "https://github.com/akveo/ngx-app-frame/issues"
     },
-    "homepage": "https://github.com/akveo/oliveui#readme",
+    "homepage": "https://github.com/akveo/ngx-app-frame#readme",
     "keywords": [
         "angular",
         "typescript",
@@ -24,7 +24,7 @@
         "auth",
         "login",
         "register",
-        "oliveui"
+        "ngx-app-frame"
     ],
     "peerDependencies": {
         "@angular/common": "^6.0.0",
@@ -32,7 +32,7 @@
         "@angular/router": "^6.0.0",
         "@angular/forms": "^6.0.0",
         "@angular/http": "^6.0.0",
-        "@oliveui/theme": "2.0.3",
+        "@ngx-app-frame/theme": "2.0.3",
         "rxjs": "^6.1.0"
     }
 }

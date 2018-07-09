@@ -1,7 +1,7 @@
 # Security 
 
 Security is an important part of any adult web application. It is a common task to manage a user access to particular resources.
-Unlike the `oliveui Auth`, which provides a way to `authenticate` a user, `oliveui Security` helps you to `authorize` a user to access some of the application resources.
+Unlike the `ngx-app-frame Auth`, which provides a way to `authenticate` a user, `ngx-app-frame Security` helps you to `authorize` a user to access some of the application resources.
 
 <div class="note note-warning">
   <div class="note-title">Warning</div>

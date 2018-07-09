@@ -6,7 +6,7 @@
 
 import { Component, ComponentFactoryResolver } from '@angular/core';
 
-import { NbThemeService } from '@oliveui/theme';
+import { NbThemeService } from '@ngx-app-frame/theme';
 import { NbDynamicToAddComponent } from '../shared/dynamic.component';
 
 @Component({
