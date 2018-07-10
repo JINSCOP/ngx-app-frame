@@ -5,17 +5,18 @@ import { NbThemeService } from '@ngx-app-frame/theme';
   selector: 'nb-layout-theme-toggle',
   styleUrls: ['./layout-theme-toggle.component.scss'],
   template: `
-    <label dir="ltr">
+    <div dir="ltr">
       <button (click)="enable('cosmic')">Cosmic</button>
       <button (click)="enable('default')">Default</button>
       <button (click)="enable('corporate')">Corporate</button>
-    </label>
+    </div>
   `,
 })
 export class NbLayoutThemeToggleComponent {
   constructor(private themeService: NbThemeService) {}
 
   enable(theme: string) {
+    console.log("-----选择了主题：",theme);
     this.themeService.changeTheme(theme);
   }
 }
