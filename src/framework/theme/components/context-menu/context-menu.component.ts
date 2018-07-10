@@ -1,11 +1,11 @@
 /**
  * @license
- * Copyright Akveo. All Rights Reserved.
+ * Copyright JINSCOP. All Rights Reserved.
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 
 import { Component, Input } from '@angular/core';
-import { NbMenuItem } from '../../';
+import { NbMenuItem } from '../..';
 
 /**
  * Context menu component used as content within NbContextMenuDirective.

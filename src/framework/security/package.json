@@ -1,6 +1,6 @@
 {
     "name": "@ngx-app-frame/security",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "description": "@ngx-app-frame/security",
     "main": "./bundles/security.umd.js",
     "module": "./index.js",
@@ -9,12 +9,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akveo/ngx-app-frame.git"
+        "url": "git+https://github.com/JINSCOP/ngx-app-frame.git"
     },
     "bugs": {
-        "url": "https://github.com/akveo/ngx-app-frame/issues"
+        "url": "https://github.com/JINSCOP/ngx-app-frame/issues"
     },
-    "homepage": "https://github.com/akveo/ngx-app-frame#readme",
+    "homepage": "https://github.com/JINSCOP/ngx-app-frame#readme",
     "keywords": [
         "angular",
         "typescript",

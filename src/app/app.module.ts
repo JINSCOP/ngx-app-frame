@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Akveo. All Rights Reserved.
+ * Copyright JINSCOP. All Rights Reserved.
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 
@@ -14,8 +14,8 @@ import { NbThemeModule } from '@ngx-app-frame/theme';
 
 import { NbAppComponent } from './app.component';
 import { NbLayoutDirectionToggleComponent } from './layout-direction-toggle/layout-direction-toggle.component';
-import { NbDynamicToAddComponent } from '../playground/shared/dynamic.component';
-import { NbPlaygroundSharedModule } from '../playground/shared/shared.module';
+import { NbDynamicToAddComponent } from '../playground/theme/shared/dynamic.component';
+import { NbPlaygroundSharedModule } from '../playground/theme/shared/shared.module';
 import { NbLayoutThemeToggleComponent } from './layout-theme-toggle/layout-theme-toggle.component';
 
 @NgModule({

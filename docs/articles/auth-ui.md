@@ -208,7 +208,7 @@ All you need to do is:
 
 ### Copy component sources
 
-Copy [source code](https://github.com/akveo/ngx-app-frame/tree/master/src/framework/auth/components) of the components you want to change under your project. If you use `ngx-admin`, you may place them under `src/app/@theme/components/auth`.
+Copy [source code](https://github.com/JINSCOP/ngx-app-frame/tree/master/src/framework/auth/components) of the components you want to change under your project. If you use `ngx-admin`, you may place them under `src/app/@theme/components/auth`.
 Rename components to conform your app prefix, for instance using `ngx-` prefix.
 
 <div class="note note-warning">

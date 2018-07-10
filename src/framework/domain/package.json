@@ -1,0 +1,34 @@
+{
+    "name": "@ngx-app-frame/domain",
+    "version": "1.0.5",
+    "description": "@ngx-app-frame/domain",
+    "main": "./bundles/theme.umd.js",
+    "module": "./index.js",
+    "typings": "./index.d.ts",
+    "author": "金飞",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JINSCOP/ngx-app-frame.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JINSCOP/ngx-app-frame/issues"
+    },
+    "homepage": "https://github.com/JINSCOP/ngx-app-frame#readme",
+    "keywords": [
+        "angular",
+        "typescript",
+        "ng2-admin",
+        "ngx-admin",
+        "theme",
+        "ngx-app-frame"
+    ],
+    "peerDependencies": {
+        "@angular/animations": "^6.0.0",
+        "@angular/common": "^6.0.0",
+        "@angular/core": "^6.0.0",
+        "@angular/router": "^6.0.0",
+        "rxjs": "^6.1.0",
+        "bootstrap": "^4.0.0"
+    }
+}

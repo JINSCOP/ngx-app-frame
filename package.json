@@ -1,6 +1,6 @@
 {
     "name": "ngx-app-frame",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "license": "MIT",
     "author": "金飞 <28206254@qq.com>",
     "browserslist": [
@@ -9,10 +9,10 @@
         "IE 11"
     ],
     "bugs": {
-        "url": "https://github.com/akveo/ngx-app-frame/issues"
+        "url": "https://github.com/JINSCOP/ngx-app-frame/issues"
     },
-    "homepage": "https://github.com/akveo/ngx-app-frame#readme",
-    "repository": "git+https://github.com/akveo/ngx-app-frame.git",
+    "homepage": "https://github.com/JINSCOP/ngx-app-frame#readme",
+    "repository": "git+https://github.com/JINSCOP/ngx-app-frame.git",
     "scripts": {
         "ng": "ng",
         "ngh": "ngh",
@@ -64,7 +64,7 @@
         "release:validate": "npm-run-all release:prepare build:wp ci:lint e2e:wp test:wp",
         "release:dev": "npm-run-all release:prepare:dev publish",
         "release": "npm-run-all release:validate publish",
-        "publish": "npm publish --access=public src/.lib/theme && npm publish --access=public src/.lib/auth && npm publish --access=public src/.lib/security",
+        "publish": "npm publish --access=public src/.lib/theme && npm publish --access=public src/.lib/auth && npm publish --access=public src/.lib/security && npm publish --access=public src/.lib/domain",
         "cli:firefox-fix": "rimraf node_modules/@angular-devkit/build-angular/node_modules/uglify-es && rimraf node_modules/@angular-devkit/build-angular/node_modules/uglifyjs-webpack-plugin",
         "postinstall": "npm run cli:firefox-fix"
     },
@@ -87,6 +87,7 @@
         "@angular/platform-browser-dynamic": "6.0.0",
         "@angular/router": "6.0.0",
         "@ngx-app-frame/auth": "^1.0.2",
+        "@ngx-app-frame/domain": "^1.0.5",
         "@ngx-app-frame/icons": "^1.0.3",
         "@ngx-app-frame/security": "^1.0.2",
         "@ngx-app-frame/theme": "^1.0.2",

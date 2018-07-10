@@ -1,6 +1,6 @@
 /**
  * @license
- * Copyright Akveo. All Rights Reserved.
+ * Copyright JINSCOP. All Rights Reserved.
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 import { Inject, Injectable } from '@angular/core';
@@ -11,7 +11,7 @@ import { switchMap, map, catchError } from 'rxjs/operators';
 import { NB_WINDOW } from '@ngx-app-frame/theme';
 
 import { NbAuthStrategy } from '../auth-strategy';
-import { NbAuthRefreshableToken, NbAuthResult } from '../../services/';
+import { NbAuthRefreshableToken, NbAuthResult } from '../../services';
 import { NbOAuth2AuthStrategyOptions,
          NbOAuth2ResponseType,
          auth2StrategyOptions,

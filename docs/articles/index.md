@@ -50,4 +50,4 @@ That's why we are on a mission to assemble together the most useful modules and 
 This documentation assumes that you are already familiar with JavaScript/TypeScript, Angular, CSS and Bootstrap.
 
 ## Have questions?
-Didn't find something here? Look through the <a href="https://github.com/akveo/ngx-app-frame/issues" target="_blank">issues</a> or simply drop us a line at <a href="mailto:contact@akveo.com">contact@akveo.com</a>.
+Didn't find something here? Look through the <a href="https://github.com/JINSCOP/ngx-app-frame/issues" target="_blank">issues</a> or simply drop us a line at <a href="mailto:contact@akveo.com">contact@akveo.com</a>.

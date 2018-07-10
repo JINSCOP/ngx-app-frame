@@ -216,8 +216,8 @@ The rest of the commit message is then used for this.
 
 [coc]: CODE_OF_CONDUCT.md
 [dev-doc]: DEV_DOCS.md
-[github]: https://github.com/akveo/ngx-app-frame
+[github]: https://github.com/JINSCOP/ngx-app-frame
 [stackoverflow]: https://stackoverflow.com/questions/tagged/ngx-app-frame
-[issues]: https://github.com/akveo/ngx-app-frame/issues
-[new_issue]: https://github.com/akveo/ngx-app-frame/issues/new
-[pulls]: https://github.com/akveo/ngx-app-frame/pulls
+[issues]: https://github.com/JINSCOP/ngx-app-frame/issues
+[new_issue]: https://github.com/JINSCOP/ngx-app-frame/issues/new
+[pulls]: https://github.com/JINSCOP/ngx-app-frame/pulls

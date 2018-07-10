@@ -12,9 +12,11 @@ task('bump', () => {
     './src/framework/theme/package.json',
     './src/framework/auth/package.json',
     './src/framework/security/package.json',
+    './src/framework/domain/package.json',
     './src/.lib/theme/package.json',
     './src/.lib/auth/package.json',
     './src/.lib/security/package.json',
+    './src/.lib/domain/package.json',
   ], { base: './' })
     .pipe(modify({
       key: 'version',
