@@ -31,6 +31,10 @@ import {
   NbAccordionModule,
 } from '@ngx-app-frame/theme';
 
+import {
+  AFContextHelperModule,
+} from '@ngx-app-frame/domain';
+
 import { NbPlaygroundRoutingModule } from './playground-routing.module';
 import { NbPlaygroundBaseComponent } from './playground-base.component';
 import { NbPlaygroundLayoutComponent } from './playground-layout.component';
@@ -154,6 +158,8 @@ import { NbAccordionMultiComponent } from './theme/accordion/accordion-multi.com
 import { NbLayoutSidebarSubheaderComponent } from './theme/layout/layout-sidebar-subheader.component';
 import { NbLayoutSubheaderComponent } from './theme/layout/layout-subheader.component';
 
+import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
+
 export const NB_MODULES = [
   NbCardModule,
   NbLayoutModule,
@@ -180,6 +186,7 @@ export const NB_MODULES = [
   }),
   NbSpinnerModule,
   NbAccordionModule,
+  AFContextHelperModule,
 ];
 
 export const NB_EXAMPLE_COMPONENTS = [
@@ -296,6 +303,7 @@ export const NB_EXAMPLE_COMPONENTS = [
   NbAccordionTestComponent,
   NbAccordionToggleComponent,
   NbAccordionMultiComponent,
+  AFContextHelperTestComponent,
 ];
 
 

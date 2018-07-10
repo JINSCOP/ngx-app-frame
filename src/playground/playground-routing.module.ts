@@ -126,6 +126,8 @@ import { NbAccordionToggleComponent } from './theme/accordion/accordion-toggle.c
 import { NbLayoutSidebarSubheaderComponent } from './theme/layout/layout-sidebar-subheader.component';
 import { NbLayoutSubheaderComponent } from './theme/layout/layout-subheader.component';
 
+import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
+
 export const routes: Routes = [
   {
     path: '',
@@ -745,6 +747,21 @@ export const routes: Routes = [
         ],
       },
     ],
+  },
+  {
+    path: '',
+    component: NbPlaygroundBaseComponent,
+    children: [
+      {
+        path: 'context-helper',
+        children: [
+          {
+            path: 'context-helper-test.component',
+            component: AFContextHelperTestComponent,
+          },
+        ],
+      },
+    ]
   },
   {
     path: 'oauth2',
