@@ -186,6 +186,10 @@ export const NB_MODULES = [
   }),
   NbSpinnerModule,
   NbAccordionModule,
+  
+];
+
+export const AF_MODULES = [
   AFContextHelperModule,
 ];
 
@@ -314,6 +318,7 @@ export const NB_EXAMPLE_COMPONENTS = [
     FormsModule,
     ReactiveFormsModule,
     ...NB_MODULES,
+    ...AF_MODULES,
   ],
   declarations: [
     NbPlaygroundLayoutComponent,
