@@ -115,10 +115,10 @@ import { NbSpinnerButtonComponent } from './theme/spinner/spinner-button.compone
 import { NbSpinnerTabsComponent } from './theme/spinner/spinner-tabs.component';
 import { NbSpinnerSizesComponent } from './theme/spinner/spinner-sizes.component';
 import { NbSpinnerColorsComponent } from './theme/spinner/spinner-colors.component';
-import { NbStepperShowcaseComponent } from './theme/stepper/stepper-showcase.component';
-import { NbStepperValidationComponent } from './theme/stepper/stepper-validation.component';
-import { NbStepperVerticalComponent } from './theme/stepper/stepper-vertical.component';
-import { NbStepperTestComponent } from './theme/stepper/stepper-test.component';
+// import { NbStepperShowcaseComponent } from './theme/stepper/stepper-showcase.component';
+// import { NbStepperValidationComponent } from './theme/stepper/stepper-validation.component';
+// import { NbStepperVerticalComponent } from './theme/stepper/stepper-vertical.component';
+// import { NbStepperTestComponent } from './theme/stepper/stepper-test.component';
 import { NbAccordionShowcaseComponent } from './theme/accordion/accordion-showcase.component';
 import { NbAccordionTestComponent } from './theme/accordion/accordion-test.component';
 import { NbAccordionMultiComponent } from './theme/accordion/accordion-multi.component';
@@ -127,6 +127,8 @@ import { NbLayoutSidebarSubheaderComponent } from './theme/layout/layout-sidebar
 import { NbLayoutSubheaderComponent } from './theme/layout/layout-subheader.component';
 
 import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
+import { AFPaginatorComponent } from './domain/paginator/paginator.component';
+import { ValidationComponent } from './utils/validation/validation.component';
 
 export const routes: Routes = [
   {
@@ -398,27 +400,27 @@ export const routes: Routes = [
           },
         ],
       },
-      {
-        path: 'stepper',
-        children: [
-          {
-            path: 'stepper-test.component',
-            component: NbStepperTestComponent,
-          },
-          {
-            path: 'stepper-showcase.component',
-            component: NbStepperShowcaseComponent,
-          },
-          {
-            path: 'stepper-validation.component',
-            component: NbStepperValidationComponent,
-          },
-          {
-            path: 'stepper-vertical.component',
-            component: NbStepperVerticalComponent,
-          },
-        ],
-      },
+      // {
+      //   path: 'stepper',
+      //   children: [
+      //     {
+      //       path: 'stepper-test.component',
+      //       component: NbStepperTestComponent,
+      //     },
+      //     {
+      //       path: 'stepper-showcase.component',
+      //       component: NbStepperShowcaseComponent,
+      //     },
+      //     {
+      //       path: 'stepper-validation.component',
+      //       component: NbStepperValidationComponent,
+      //     },
+      //     {
+      //       path: 'stepper-vertical.component',
+      //       component: NbStepperVerticalComponent,
+      //     },
+      //   ],
+      // },
       {
         path: 'user',
         children: [
@@ -749,7 +751,7 @@ export const routes: Routes = [
     ],
   },
   {
-    path: '',
+    path: 'ss',
     component: NbPlaygroundBaseComponent,
     children: [
       {
@@ -758,6 +760,15 @@ export const routes: Routes = [
           {
             path: 'context-helper-test.component',
             component: AFContextHelperTestComponent,
+          },
+        ],
+      },
+      {
+        path: 'paginator',
+        children: [
+          {
+            path: 'paginator-test',
+            component: AFPaginatorComponent,
           },
         ],
       },
@@ -772,9 +783,19 @@ export const routes: Routes = [
     loadChildren: './auth/oauth2-password/oauth2-password.module#NbOAuth2PasswordPlaygroundModule',
   },
   {
-    path: '',
-    loadChildren: './auth/auth.module#NbAuthPlaygroundModule',
+    path: 'validation',
+    children: [
+      {
+        path: 'validation-test',
+        component: ValidationComponent,
+      },
+    ]
   },
+  // AFPaginatorComponent
+  // {
+  //   path: '',
+  //   loadChildren: './auth/auth.module#NbAuthPlaygroundModule',
+  // },
 ];
 
 @NgModule({

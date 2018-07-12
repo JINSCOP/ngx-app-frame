@@ -18,6 +18,18 @@ import { NbDynamicToAddComponent } from '../playground/theme/shared/dynamic.comp
 import { NbPlaygroundSharedModule } from '../playground/theme/shared/shared.module';
 import { NbLayoutThemeToggleComponent } from './layout-theme-toggle/layout-theme-toggle.component';
 
+/**
+ * @primeng
+ */
+import { SidebarModule } from 'primeng/sidebar';
+import { ButtonModule } from 'primeng/button';
+const AF_PRIMENGMODLE = [
+  SidebarModule,
+  ButtonModule,
+];
+
+
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -32,6 +44,8 @@ import { NbLayoutThemeToggleComponent } from './layout-theme-toggle/layout-theme
     ], { useHash: true }),
     NbThemeModule.forRoot({ name: 'default' }),
     NbPlaygroundSharedModule,
+    ...AF_PRIMENGMODLE,
+    // AFValidationModule,
   ],
   declarations: [
     NbAppComponent,

@@ -1,6 +1,6 @@
 {
     "name": "ngx-app-frame",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "license": "MIT",
     "author": "金飞 <28206254@qq.com>",
     "browserslist": [
@@ -64,7 +64,7 @@
         "release:validate": "npm-run-all release:prepare build:wp ci:lint e2e:wp test:wp",
         "release:dev": "npm-run-all release:prepare:dev publish",
         "release": "npm-run-all release:validate publish",
-        "publish": "npm publish --access=public src/.lib/theme && npm publish --access=public src/.lib/auth && npm publish --access=public src/.lib/security && npm publish --access=public src/.lib/domain",
+        "publish": "npm publish --access=public src/.lib/theme && npm publish --access=public src/.lib/auth && npm publish --access=public src/.lib/security && npm publish --access=public src/.lib/domain && npm publish --access=public src/.lib/utils",
         "cli:firefox-fix": "rimraf node_modules/@angular-devkit/build-angular/node_modules/uglify-es && rimraf node_modules/@angular-devkit/build-angular/node_modules/uglifyjs-webpack-plugin",
         "postinstall": "npm run cli:firefox-fix"
     },
@@ -87,10 +87,11 @@
         "@angular/platform-browser-dynamic": "6.0.0",
         "@angular/router": "6.0.0",
         "@ngx-app-frame/auth": "^1.0.2",
-        "@ngx-app-frame/domain": "^1.0.5",
+        "@ngx-app-frame/domain": "^1.0.7",
         "@ngx-app-frame/icons": "^1.0.3",
         "@ngx-app-frame/security": "^1.0.2",
         "@ngx-app-frame/theme": "^1.0.2",
+        "@ngx-app-frame/utils": "^1.0.6",
         "bootstrap": "4.0.0",
         "colors.js": "1.2.4",
         "core-js": "2.5.1",
@@ -102,6 +103,8 @@
         "leaflet": "1.0.3",
         "marked": "0.3.9",
         "normalize.css": "6.0.0",
+        "primeicons": "^1.0.0-beta.9",
+        "primeng": "^6.0.0",
         "rxjs": "^6.1.0",
         "socicon": "3.0.5",
         "zone.js": "^0.8.26"

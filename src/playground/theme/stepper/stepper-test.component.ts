@@ -3,7 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'nb-stepper-test',
   template: `
-    <nb-stepper>
+
+  `,
+})
+export class NbStepperTestComponent {
+  /*
+  
+      <nb-stepper>
       <nb-step>
         <ng-template nbStepLabel>First step</ng-template>
         <div class="step-container">
@@ -36,7 +42,6 @@ import { Component } from '@angular/core';
         </div>
       </nb-step>
     </nb-stepper>
-  `,
-})
-export class NbStepperTestComponent {
+  
+  */
 }

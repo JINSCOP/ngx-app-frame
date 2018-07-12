@@ -12,6 +12,7 @@ import { Component } from '@angular/core';
     <nb-card *ngFor="let card of cards" [size]="card.size" [status]="card.status">
       <nb-card-header>
         <span>Header</span>
+        1111111111111111111
       </nb-card-header>
       <nb-card-body *ngIf="card.size !== 'xxsmall'">
         <span>Body</span>

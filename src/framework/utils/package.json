@@ -1,11 +1,11 @@
 {
-    "name": "@ngx-app-frame/security",
+    "name": "@ngx-app-frame/utils",
     "version": "1.0.7",
-    "description": "@ngx-app-frame/security",
-    "main": "./bundles/security.umd.js",
+    "description": "@ngx-app-frame/utils",
+    "main": "./bundles/theme.umd.js",
     "module": "./index.js",
     "typings": "./index.d.ts",
-    "author": "akveo",
+    "author": "金飞",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -21,17 +21,14 @@
         "ng2-admin",
         "ngx-admin",
         "theme",
-        "auth",
-        "acl",
-        "security",
-        "login",
-        "register",
         "ngx-app-frame"
     ],
     "peerDependencies": {
+        "@angular/animations": "^6.0.0",
         "@angular/common": "^6.0.0",
         "@angular/core": "^6.0.0",
         "@angular/router": "^6.0.0",
-        "rxjs": "^6.1.0"
+        "rxjs": "^6.1.0",
+        "bootstrap": "^4.0.0"
     }
 }

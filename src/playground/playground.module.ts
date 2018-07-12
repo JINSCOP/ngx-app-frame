@@ -27,13 +27,18 @@ import {
   NbAlertModule,
   NbChatModule,
   NbSpinnerModule,
-  NbStepperModule,
+  // NbStepperModule,
   NbAccordionModule,
 } from '@ngx-app-frame/theme';
 
 import {
   AFContextHelperModule,
+  AFPaginatorModule,
 } from '@ngx-app-frame/domain';
+
+import {
+  AFValidationModule
+} from '@ngx-app-frame/utils';
 
 import { NbPlaygroundRoutingModule } from './playground-routing.module';
 import { NbPlaygroundBaseComponent } from './playground-base.component';
@@ -159,6 +164,8 @@ import { NbLayoutSidebarSubheaderComponent } from './theme/layout/layout-sidebar
 import { NbLayoutSubheaderComponent } from './theme/layout/layout-subheader.component';
 
 import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
+import { ValidationComponent } from './utils/validation/validation.component';
+import { AFPaginatorComponent } from './domain/paginator/paginator.component';
 
 export const NB_MODULES = [
   NbCardModule,
@@ -177,7 +184,7 @@ export const NB_MODULES = [
   NbUserModule,
   NbBadgeModule,
   NbContextMenuModule,
-  NbStepperModule,
+  // NbStepperModule,
   NbAlertModule,
   NbPlaygroundSharedModule,
   NbProgressBarModule,
@@ -186,11 +193,13 @@ export const NB_MODULES = [
   }),
   NbSpinnerModule,
   NbAccordionModule,
-  
+
 ];
 
 export const AF_MODULES = [
   AFContextHelperModule,
+  AFValidationModule,
+  AFPaginatorModule,
 ];
 
 export const NB_EXAMPLE_COMPONENTS = [
@@ -310,6 +319,10 @@ export const NB_EXAMPLE_COMPONENTS = [
   AFContextHelperTestComponent,
 ];
 
+export const AF_EXAMPLE_COMPONENTS = [
+  ValidationComponent,
+  AFPaginatorComponent,
+];
 
 @NgModule({
   imports: [
@@ -324,6 +337,7 @@ export const NB_EXAMPLE_COMPONENTS = [
     NbPlaygroundLayoutComponent,
     NbPlaygroundBaseComponent,
     ...NB_EXAMPLE_COMPONENTS,
+    ...AF_EXAMPLE_COMPONENTS,
   ],
 })
 export class NbPlaygroundModule {

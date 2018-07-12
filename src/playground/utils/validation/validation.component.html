@@ -1,0 +1,43 @@
+
+
+<p>1. 日期（例如：2018-06-11）</p>
+<input type="text" onlyDate [(ngModel)]="test.onlyDate">演示：{{test?.onlyDate}}
+<p>2. 日期时间（例如：2018-06-11 24:00:00）</p>
+<input type="text" onlyDateTime [(ngModel)]="test.onlyDateTime">演示：{{test?.onlyDateTime}}
+<br>
+<br>
+<p>3. 邮箱地址(例如：323498@qq.com)</p>
+<input type="text" onlyEmail [(ngModel)]="test.onlyEmail">演示：{{test?.onlyEmail}}
+<br>
+<br>
+<p>4.整数(例如：123,456,333,-20,+30,只包括数字，+-符号)</p>
+<input type="text" onlyInt [(ngModel)]="test.onlyInt">演示：{{test?.onlyInt}}
+<br>
+<br>
+<p>5. 浮点数(例如：1.22,0.01,-9.11,+20.22，只包括浮点数数字外加.+-三个符号)</p>
+<input type="text" onlyFloat [(ngModel)]="test.onlyFloat" placeholder="浮点数">演示：{{test?.onlyFloat}}
+<br>
+<br>
+<p>6. 数字（例如：1,2,3,-4.50,+0.55，只包括数字，浮点数，外加.+-）</p>
+<input type="text" onlyNumber [(ngModel)]="test.onlyNumber" placeholder="只能输入数字">演示：{{test?.onlyNumber}}
+<br>
+<br>
+<p>7. 中文（只包括中文，不包括数字，英文，符号）</p>
+<input type="text" onlyCh [(ngModel)]="test.onlyCh" placeholder="只能输入中文">演示：{{test?.onlyCh}}
+<br>
+<br>
+<p>8. 英文（只包括英文和英文括号，不包括数字，符号）</p>
+<input type="text" onlyEn [(ngModel)]="test.onlyEn" placeholder="只能输入英文">演示：{{test?.onlyEn}}
+<br>
+<br>
+<p>9. 英文加数字（只包括英文和数字，不包括符号）</p>
+<input type="text" onlyEnNum [(ngModel)]="test.onlyEnNum" placeholder="只能输入英文加数字">演示：{{test?.onlyEnNum}}
+<br>
+<br>
+<p>10. 英文数字符号（只包括英文，数字，符号，不包括中文，中文的标点符号）</p>
+<input type="text" onlyEnNumSign [(ngModel)]="test.onlyEnNumSign" placeholder="只能输入英文加数字加英文符号">演示：{{test?.onlyEnNumSign}}
+<br>
+<br>
+<p>11. 货币（只包括货币格式的数字，逗号，小数点, ,不包括其他内容）</p>
+<input type="text" onlyMoney [(ngModel)]="test.onlyMoney" placeholder="只能输入货币数字">演示：{{test?.onlyMoney}}
+<br>
