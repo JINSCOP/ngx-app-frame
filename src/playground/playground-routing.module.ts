@@ -773,7 +773,7 @@ export const routes: Routes = [
         ],
       },
     ]
-  },
+  }, 
   {
     path: 'oauth2',
     loadChildren: './auth/oauth2/oauth2.module#NbOAuth2PlaygroundModule',
