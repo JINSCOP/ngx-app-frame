@@ -5,7 +5,7 @@
     "main": "./bundles/theme.umd.js",
     "module": "./index.js",
     "typings": "./index.d.ts",
-    "author": "金飞",
+    "author": "王饶冀",
     "license": "MIT",
     "repository": {
         "type": "git",
