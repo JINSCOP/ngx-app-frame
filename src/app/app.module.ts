@@ -27,7 +27,9 @@ const AF_PRIMENGMODLE = [
   SidebarModule,
   ButtonModule,
 ];
-
+import {
+  NbMenuModule,
+} from '@ngx-app-frame/theme';
 
 
 @NgModule({
@@ -36,6 +38,7 @@ const AF_PRIMENGMODLE = [
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    NbMenuModule,
     RouterModule.forRoot([
       {
         path: '',

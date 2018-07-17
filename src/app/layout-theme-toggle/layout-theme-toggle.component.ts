@@ -13,7 +13,10 @@ import { NbThemeService } from '@ngx-app-frame/theme';
     </div>
     <p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
       <h1 style="font-weight:normal" style="color: #2a2a2a;">列表</h1>
-    
+      <button routerLink="utile/validation-test">验证测试</button>
+      <button routerLink="utile/indexDB-test">indexDB测试</button>
+      <button routerLink="ss/paginator/paginator-test">分页测试</button>
+      
     </p-sidebar>
   `,
 })
@@ -22,6 +25,7 @@ export class NbLayoutThemeToggleComponent {
   // <button pButton type="button" (click)="visibleSidebar1 = false" label="Save" class="ui-button-success"></button>
   // <button pButton type="button" (click)="visibleSidebar1 = false" label="Cancel" class="ui-button-secondary"></button>
   // <nb-menu[items]="items"> </nb-menu>
+  //   <nb-menu [items]="items"> </nb-menu>
   data: any;
   constructor(private themeService: NbThemeService) { }
 

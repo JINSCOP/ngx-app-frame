@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './validation.component.html',
   styleUrls: ['./validation.component.scss']
 })
-export class ValidationComponent implements OnInit {
+export class AFValidationComponent implements OnInit {
   test:any = {};
   constructor() { }
 

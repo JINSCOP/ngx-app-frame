@@ -28,9 +28,10 @@
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.css",
                             "node_modules/@ngx-app-frame/icons/scss/oliveui-icons.scss",
-                            "node_modules/primeicons/primeicons.css",
-                            "node_modules/primeng/resources/themes/omega/theme.css",
-                            "node_modules/primeng/resources/primeng.min.css",
+                            "./node_modules/font-awesome/css/font-awesome.min.css",
+                            "./node_modules/primeicons/primeicons.css",
+                            "./node_modules/primeng/resources/themes/omega/theme.css",
+                            "./node_modules/primeng/resources/primeng.min.css",
                             "src/styles.scss"
                         ],
                         "scripts": []
@@ -81,6 +82,10 @@
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.css",
                             "node_modules/@ngx-app-frame/icons/scss/oliveui-icons.scss",
+                            "./node_modules/font-awesome/css/font-awesome.min.css",
+                            "./node_modules/primeicons/primeicons.css",
+                            "./node_modules/primeng/resources/themes/omega/theme.css",
+                            "./node_modules/primeng/resources/primeng.min.css",
                             "src/styles.scss"
                         ],
                         "assets": [
@@ -149,6 +154,10 @@
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.css",
                             "node_modules/@ngx-app-frame/icons/scss/oliveui-icons.scss",
+                            "./node_modules/font-awesome/css/font-awesome.min.css",
+                            "./node_modules/primeicons/primeicons.css",
+                            "./node_modules/primeng/resources/themes/omega/theme.css",
+                            "./node_modules/primeng/resources/primeng.min.css",
                             "src/styles.scss"
                         ],
                         "scripts": []
@@ -199,6 +208,10 @@
                         "styles": [
                             "node_modules/bootstrap/dist/css/bootstrap.css",
                             "node_modules/@ngx-app-frame/icons/scss/oliveui-icons.scss",
+                            "./node_modules/font-awesome/css/font-awesome.min.css",
+                            "./node_modules/primeicons/primeicons.css",
+                            "./node_modules/primeng/resources/themes/omega/theme.css",
+                            "./node_modules/primeng/resources/primeng.min.css",
                             "src/styles.scss"
                         ],
                         "assets": [

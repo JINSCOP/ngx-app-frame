@@ -1,6 +1,6 @@
 {
     "name": "@ngx-app-frame/theme",
-    "version": "1.0.7",
+    "version": "1.0.10",
     "description": "@ngx-app-frame/theme",
     "main": "./bundles/theme.umd.js",
     "module": "./index.js",

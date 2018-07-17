@@ -37,10 +37,10 @@ import {
 } from '@ngx-app-frame/domain';
 
 import {
-  AFValidationModule
+  AFValidationModule,
 } from '@ngx-app-frame/utils';
 
-import { NbPlaygroundRoutingModule } from './playground-routing.module';
+import { NbPlaygroundRoutingModule, AF_EXAMPLE_COMPONENTS } from './playground-routing.module';
 import { NbPlaygroundBaseComponent } from './playground-base.component';
 import { NbPlaygroundLayoutComponent } from './playground-layout.component';
 
@@ -163,9 +163,9 @@ import { NbAccordionMultiComponent } from './theme/accordion/accordion-multi.com
 import { NbLayoutSidebarSubheaderComponent } from './theme/layout/layout-sidebar-subheader.component';
 import { NbLayoutSubheaderComponent } from './theme/layout/layout-subheader.component';
 
-import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
-import { ValidationComponent } from './utils/validation/validation.component';
-import { AFPaginatorComponent } from './domain/paginator/paginator.component';
+// import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
+// import { ValidationComponent } from './utils/validation/validation.component';
+// import { AFPaginatorComponent } from './domain/paginator/paginator.component';
 
 export const NB_MODULES = [
   NbCardModule,
@@ -316,12 +316,17 @@ export const NB_EXAMPLE_COMPONENTS = [
   NbAccordionTestComponent,
   NbAccordionToggleComponent,
   NbAccordionMultiComponent,
-  AFContextHelperTestComponent,
 ];
 
-export const AF_EXAMPLE_COMPONENTS = [
-  ValidationComponent,
-  AFPaginatorComponent,
+// primeng
+import { TableModule } from 'primeng/table';
+import { DialogModule } from 'primeng/dialog';
+import { ButtonModule } from 'primeng/button';
+
+export const PRIMENG_MODULES = [
+  TableModule,
+  DialogModule,
+  ButtonModule,
 ];
 
 @NgModule({
@@ -332,6 +337,7 @@ export const AF_EXAMPLE_COMPONENTS = [
     ReactiveFormsModule,
     ...NB_MODULES,
     ...AF_MODULES,
+    ...PRIMENG_MODULES,
   ],
   declarations: [
     NbPlaygroundLayoutComponent,

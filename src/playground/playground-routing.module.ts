@@ -128,7 +128,8 @@ import { NbLayoutSubheaderComponent } from './theme/layout/layout-subheader.comp
 
 import { AFContextHelperTestComponent } from './domain/context-helper/context-helper-test.component';
 import { AFPaginatorComponent } from './domain/paginator/paginator.component';
-import { ValidationComponent } from './utils/validation/validation.component';
+import { AFValidationComponent } from './utils/validation/validation.component';
+import { AFIndexDBComponent } from './utils/indexDB/indexDB.component';
 
 export const routes: Routes = [
   {
@@ -773,7 +774,7 @@ export const routes: Routes = [
         ],
       },
     ]
-  }, 
+  },
   {
     path: 'oauth2',
     loadChildren: './auth/oauth2/oauth2.module#NbOAuth2PlaygroundModule',
@@ -783,11 +784,15 @@ export const routes: Routes = [
     loadChildren: './auth/oauth2-password/oauth2-password.module#NbOAuth2PasswordPlaygroundModule',
   },
   {
-    path: 'validation',
+    path: 'utile',
     children: [
       {
         path: 'validation-test',
-        component: ValidationComponent,
+        component: AFValidationComponent,
+      },
+      {
+        path: 'indexDB-test',
+        component: AFIndexDBComponent,
       },
     ]
   },
@@ -804,3 +809,15 @@ export const routes: Routes = [
 })
 export class NbPlaygroundRoutingModule {
 }
+
+
+export const AF_EXAMPLE_COMPONENTS = [
+  // domain
+  AFContextHelperTestComponent,
+  AFPaginatorComponent,
+  
+  // utils
+  AFIndexDBComponent,
+  AFValidationComponent,
+
+];
